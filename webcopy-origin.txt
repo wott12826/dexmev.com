@@ -1,0 +1,188 @@
+Uri: https://dexmev.com/
+File Name: C:\Downloaded Web Sites\dexmev.com\index.htm
+Content Type: text/html
+
+Uri: https://dexmev.com/favicon-logo.svg
+File Name: C:\Downloaded Web Sites\dexmev.com\favicon-logo.svg
+Content Type: image/svg+xml
+
+Uri: https://dexmev.com/legal
+File Name: C:\Downloaded Web Sites\dexmev.com\legal.html
+Content Type: text/html
+
+Uri: https://dexmev.com/nextImageExportOptimizer/logo-with-text-max-opt-10.WEBP
+File Name: C:\Downloaded Web Sites\dexmev.com\nextImageExportOptimizer\logo-with-text-max-opt-10.WEBP
+Content Type: image/webp
+
+Uri: https://dexmev.com/nextImageExportOptimizer/logo-with-text-max-opt-828.WEBP
+File Name: C:\Downloaded Web Sites\dexmev.com\nextImageExportOptimizer\logo-with-text-max-opt-828.WEBP
+Content Type: image/webp
+
+Uri: https://dexmev.com/_next/static/chunks/242-52869a37d17b2150.js
+File Name: C:\Downloaded Web Sites\dexmev.com\_next\static\chunks\242-52869a37d17b2150.js
+Content Type: application/javascript
+
+Uri: https://dexmev.com/_next/static/chunks/249-de437572d43ee045.js
+File Name: C:\Downloaded Web Sites\dexmev.com\_next\static\chunks\249-de437572d43ee045.js
+Content Type: application/javascript
+
+Uri: https://dexmev.com/_next/static/chunks/445-fd262e1d3b13c864.js
+File Name: C:\Downloaded Web Sites\dexmev.com\_next\static\chunks\445-fd262e1d3b13c864.js
+Content Type: application/javascript
+
+Uri: https://dexmev.com/_next/static/chunks/4bd1b696-86de2fe5c58b3e3d.js
+File Name: C:\Downloaded Web Sites\dexmev.com\_next\static\chunks\4bd1b696-86de2fe5c58b3e3d.js
+Content Type: application/javascript
+
+Uri: https://dexmev.com/_next/static/chunks/684-eb0810b717a10552.js
+File Name: C:\Downloaded Web Sites\dexmev.com\_next\static\chunks\684-eb0810b717a10552.js
+Content Type: application/javascript
+
+Uri: https://dexmev.com/_next/static/chunks/app/(home)/layout-d8177e41cda7f8ba.js
+File Name: C:\Downloaded Web Sites\dexmev.com\_next\static\chunks\app\(home)\layout-d8177e41cda7f8ba.js
+Content Type: application/javascript
+
+Uri: https://dexmev.com/_next/static/chunks/app/(home)/page-40598c62a9ae0d78.js
+File Name: C:\Downloaded Web Sites\dexmev.com\_next\static\chunks\app\(home)\page-40598c62a9ae0d78.js
+Content Type: application/javascript
+
+Uri: https://dexmev.com/_next/static/chunks/app/legal/layout-c8fc995bfda9be4b.js
+File Name: C:\Downloaded Web Sites\dexmev.com\_next\static\chunks\app\legal\layout-c8fc995bfda9be4b.js
+Content Type: application/javascript
+
+Uri: https://dexmev.com/_next/static/chunks/app/legal/page-2ff6115f5a2f5c35.js
+File Name: C:\Downloaded Web Sites\dexmev.com\_next\static\chunks\app\legal\page-2ff6115f5a2f5c35.js
+Content Type: application/javascript
+
+Uri: https://dexmev.com/_next/static/chunks/main-app-da7cc8fc3a7434cc.js
+File Name: C:\Downloaded Web Sites\dexmev.com\_next\static\chunks\main-app-da7cc8fc3a7434cc.js
+Content Type: application/javascript
+
+Uri: https://dexmev.com/_next/static/chunks/polyfills-42372ed130431b0a.js
+File Name: C:\Downloaded Web Sites\dexmev.com\_next\static\chunks\polyfills-42372ed130431b0a.js
+Content Type: application/javascript
+
+Uri: https://dexmev.com/_next/static/chunks/webpack-7a7157402780a4d1.js
+File Name: C:\Downloaded Web Sites\dexmev.com\_next\static\chunks\webpack-7a7157402780a4d1.js
+Content Type: application/javascript
+
+Uri: https://dexmev.com/_next/static/css/96aad1a072b85b72.css
+File Name: C:\Downloaded Web Sites\dexmev.com\_next\static\css\96aad1a072b85b72.css
+Content Type: text/css
+
+Uri: https://dexmev.com/_next/static/css/981b581b9e76ef64.css
+File Name: C:\Downloaded Web Sites\dexmev.com\_next\static\css\981b581b9e76ef64.css
+Content Type: text/css
+
+Uri: https://dexmev.com/_next/static/css/ad78c375a8cf3e24.css
+File Name: C:\Downloaded Web Sites\dexmev.com\_next\static\css\ad78c375a8cf3e24.css
+Content Type: text/css
+
+Uri: https://dexmev.com/_next/static/media/1e5cdc818e052272-s.woff2
+File Name: C:\Downloaded Web Sites\dexmev.com\_next\static\media\1e5cdc818e052272-s.woff2
+Content Type: font/woff2
+
+Uri: https://dexmev.com/_next/static/media/9759834640a8c876-s.p.woff2
+File Name: C:\Downloaded Web Sites\dexmev.com\_next\static\media\9759834640a8c876-s.p.woff2
+Content Type: font/woff2
+
+Uri: https://dexmev.com/_next/static/media/a22b1dc24103c00d-s.p.woff2
+File Name: C:\Downloaded Web Sites\dexmev.com\_next\static\media\a22b1dc24103c00d-s.p.woff2
+Content Type: font/woff2
+
+Uri: https://dexmev.com/_next/static/media/ajax-loader.0b80f665.gif
+File Name: C:\Downloaded Web Sites\dexmev.com\_next\static\media\ajax-loader.0b80f665.gif
+Content Type: image/gif
+
+Uri: https://dexmev.com/_next/static/media/bb001b813e61c05f-s.woff2
+File Name: C:\Downloaded Web Sites\dexmev.com\_next\static\media\bb001b813e61c05f-s.woff2
+Content Type: font/woff2
+
+Uri: https://dexmev.com/_next/static/media/blue-abstraction.db3edbce.svg
+File Name: C:\Downloaded Web Sites\dexmev.com\_next\static\media\blue-abstraction.db3edbce.svg
+Content Type: image/svg+xml
+
+Uri: https://dexmev.com/_next/static/media/d1736fc94d1eebee-s.woff2
+File Name: C:\Downloaded Web Sites\dexmev.com\_next\static\media\d1736fc94d1eebee-s.woff2
+Content Type: font/woff2
+
+Uri: https://dexmev.com/_next/static/media/d96d6f132d480db9-s.woff2
+File Name: C:\Downloaded Web Sites\dexmev.com\_next\static\media\d96d6f132d480db9-s.woff2
+Content Type: font/woff2
+
+Uri: https://dexmev.com/_next/static/media/discord.a90aa3e6.svg
+File Name: C:\Downloaded Web Sites\dexmev.com\_next\static\media\discord.a90aa3e6.svg
+Content Type: image/svg+xml
+
+Uri: https://dexmev.com/_next/static/media/discord.c44530e2.svg
+File Name: C:\Downloaded Web Sites\dexmev.com\_next\static\media\discord.c44530e2.svg
+Content Type: image/svg+xml
+
+Uri: https://dexmev.com/_next/static/media/frame.cf983e89.svg
+File Name: C:\Downloaded Web Sites\dexmev.com\_next\static\media\frame.cf983e89.svg
+Content Type: image/svg+xml
+
+Uri: https://dexmev.com/_next/static/media/green-abstraction.d6e11589.svg
+File Name: C:\Downloaded Web Sites\dexmev.com\_next\static\media\green-abstraction.d6e11589.svg
+Content Type: image/svg+xml
+
+Uri: https://dexmev.com/_next/static/media/instagram.efbe8fe4.svg
+File Name: C:\Downloaded Web Sites\dexmev.com\_next\static\media\instagram.efbe8fe4.svg
+Content Type: image/svg+xml
+
+Uri: https://dexmev.com/_next/static/media/open-ocean.2dc49c00.svg
+File Name: C:\Downloaded Web Sites\dexmev.com\_next\static\media\open-ocean.2dc49c00.svg
+Content Type: image/svg+xml
+
+Uri: https://dexmev.com/_next/static/media/orca.502555c3.svg
+File Name: C:\Downloaded Web Sites\dexmev.com\_next\static\media\orca.502555c3.svg
+Content Type: image/svg+xml
+
+Uri: https://dexmev.com/_next/static/media/purple-abstraction.aad37be2.svg
+File Name: C:\Downloaded Web Sites\dexmev.com\_next\static\media\purple-abstraction.aad37be2.svg
+Content Type: image/svg+xml
+
+Uri: https://dexmev.com/_next/static/media/raydium.55f465ac.svg
+File Name: C:\Downloaded Web Sites\dexmev.com\_next\static\media\raydium.55f465ac.svg
+Content Type: image/svg+xml
+
+Uri: https://dexmev.com/_next/static/media/saber.f93541a3.svg
+File Name: C:\Downloaded Web Sites\dexmev.com\_next\static\media\saber.f93541a3.svg
+Content Type: image/svg+xml
+
+Uri: https://dexmev.com/_next/static/media/serum.4c301cae.svg
+File Name: C:\Downloaded Web Sites\dexmev.com\_next\static\media\serum.4c301cae.svg
+Content Type: image/svg+xml
+
+Uri: https://dexmev.com/_next/static/media/slick.25572f22.eot
+File Name: C:\Downloaded Web Sites\dexmev.com\_next\static\media\slick.25572f22.eot
+Content Type: application/vnd.ms-fontobject
+
+Uri: https://dexmev.com/_next/static/media/slick.25572f22.eot?
+File Name: C:\Downloaded Web Sites\dexmev.com\_next\static\media\slick.25572f22-1.eot
+Content Type: application/vnd.ms-fontobject
+
+Uri: https://dexmev.com/_next/static/media/slick.653a4cbb.woff
+File Name: C:\Downloaded Web Sites\dexmev.com\_next\static\media\slick.653a4cbb.woff
+Content Type: font/woff
+
+Uri: https://dexmev.com/_next/static/media/slick.6aa1ee46.ttf
+File Name: C:\Downloaded Web Sites\dexmev.com\_next\static\media\slick.6aa1ee46.ttf
+Content Type: font/ttf
+
+Uri: https://dexmev.com/_next/static/media/slick.f895cfdf.svg
+File Name: C:\Downloaded Web Sites\dexmev.com\_next\static\media\slick.f895cfdf.svg
+Content Type: image/svg+xml
+
+Uri: https://dexmev.com/_next/static/media/telegram.1611965b.svg
+File Name: C:\Downloaded Web Sites\dexmev.com\_next\static\media\telegram.1611965b.svg
+Content Type: image/svg+xml
+
+Uri: https://dexmev.com/_next/static/media/x.17c52ac2.svg
+File Name: C:\Downloaded Web Sites\dexmev.com\_next\static\media\x.17c52ac2.svg
+Content Type: image/svg+xml
+
+Uri: https://www.facebook.com/tr?id=1644522319557614&ev=PageView&noscript=1
+File Name: C:\Downloaded Web Sites\dexmev.com\tr
+Content Type: text/plain
+
