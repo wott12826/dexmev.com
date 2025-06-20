@@ -47,7 +47,7 @@
         let { children: t } = e,
           r = (0, d.usePathname)(),
           n = (0, d.useRouter)(),
-          a = !!r && ["signin.html", "signup.html"].includes(r);
+          a = !!r && ["app.dexmev.com/signin.html", "app.dexmev.com/signup.html"].includes(r);
         return (
           (0, i.useEffect)(() => {
             document.cookie.split(";").reduce((e, t) => {
