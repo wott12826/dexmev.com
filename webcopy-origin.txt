@@ -1,68 +1,68 @@
-Uri: https://dexmev.com/
-File Name: C:\Downloaded Web Sites\dexmev.com\index.htm
-Content Type: text/html
-
 Uri: https://dexmev.com/favicon-logo.svg
-File Name: C:\Downloaded Web Sites\dexmev.com\favicon-logo.svg
+File Name: C:\Downloaded Web Sites\dexmev.com\favicon-logo-1.svg
 Content Type: image/svg+xml
 
-Uri: https://dexmev.com/legal
-File Name: C:\Downloaded Web Sites\dexmev.com\legal.html
+Uri: https://dexmev.com/get-invate
+File Name: C:\Downloaded Web Sites\dexmev.com\get-invate.html
 Content Type: text/html
 
-Uri: https://dexmev.com/nextImageExportOptimizer/logo-with-text-max-opt-10.WEBP
-File Name: C:\Downloaded Web Sites\dexmev.com\nextImageExportOptimizer\logo-with-text-max-opt-10.WEBP
-Content Type: image/webp
-
-Uri: https://dexmev.com/nextImageExportOptimizer/logo-with-text-max-opt-828.WEBP
-File Name: C:\Downloaded Web Sites\dexmev.com\nextImageExportOptimizer\logo-with-text-max-opt-828.WEBP
-Content Type: image/webp
-
 Uri: https://dexmev.com/_next/static/chunks/242-52869a37d17b2150.js
-File Name: C:\Downloaded Web Sites\dexmev.com\_next\static\chunks\242-52869a37d17b2150.js
+File Name: C:\Downloaded Web Sites\dexmev.com\_next\static\chunks\242-52869a37d17b2150-1.js
 Content Type: application/javascript
 
 Uri: https://dexmev.com/_next/static/chunks/249-de437572d43ee045.js
-File Name: C:\Downloaded Web Sites\dexmev.com\_next\static\chunks\249-de437572d43ee045.js
+File Name: C:\Downloaded Web Sites\dexmev.com\_next\static\chunks\249-de437572d43ee045-1.js
 Content Type: application/javascript
 
 Uri: https://dexmev.com/_next/static/chunks/445-fd262e1d3b13c864.js
-File Name: C:\Downloaded Web Sites\dexmev.com\_next\static\chunks\445-fd262e1d3b13c864.js
+File Name: C:\Downloaded Web Sites\dexmev.com\_next\static\chunks\445-fd262e1d3b13c864-1.js
 Content Type: application/javascript
 
 Uri: https://dexmev.com/_next/static/chunks/4bd1b696-86de2fe5c58b3e3d.js
-File Name: C:\Downloaded Web Sites\dexmev.com\_next\static\chunks\4bd1b696-86de2fe5c58b3e3d.js
+File Name: C:\Downloaded Web Sites\dexmev.com\_next\static\chunks\4bd1b696-86de2fe5c58b3e3d-1.js
 Content Type: application/javascript
 
 Uri: https://dexmev.com/_next/static/chunks/684-eb0810b717a10552.js
-File Name: C:\Downloaded Web Sites\dexmev.com\_next\static\chunks\684-eb0810b717a10552.js
+File Name: C:\Downloaded Web Sites\dexmev.com\_next\static\chunks\684-eb0810b717a10552-1.js
 Content Type: application/javascript
 
-Uri: https://dexmev.com/_next/static/chunks/app/(home)/layout-d8177e41cda7f8ba.js
-File Name: C:\Downloaded Web Sites\dexmev.com\_next\static\chunks\app\(home)\layout-d8177e41cda7f8ba.js
-Content Type: application/javascript
-
-Uri: https://dexmev.com/_next/static/chunks/app/(home)/page-40598c62a9ae0d78.js
-File Name: C:\Downloaded Web Sites\dexmev.com\_next\static\chunks\app\(home)\page-40598c62a9ae0d78.js
-Content Type: application/javascript
-
-Uri: https://dexmev.com/_next/static/chunks/app/legal/layout-c8fc995bfda9be4b.js
-File Name: C:\Downloaded Web Sites\dexmev.com\_next\static\chunks\app\legal\layout-c8fc995bfda9be4b.js
-Content Type: application/javascript
-
-Uri: https://dexmev.com/_next/static/chunks/app/legal/page-2ff6115f5a2f5c35.js
-File Name: C:\Downloaded Web Sites\dexmev.com\_next\static\chunks\app\legal\page-2ff6115f5a2f5c35.js
+Uri: https://dexmev.com/_next/static/chunks/app/get-invate/layout-7d924eff1322d807.js
+File Name: C:\Downloaded Web Sites\dexmev.com\_next\static\chunks\app\get-invate\layout-7d924eff1322d807.js
 Content Type: application/javascript
 
 Uri: https://dexmev.com/_next/static/chunks/main-app-da7cc8fc3a7434cc.js
-File Name: C:\Downloaded Web Sites\dexmev.com\_next\static\chunks\main-app-da7cc8fc3a7434cc.js
+File Name: C:\Downloaded Web Sites\dexmev.com\_next\static\chunks\main-app-da7cc8fc3a7434cc-1.js
 Content Type: application/javascript
 
 Uri: https://dexmev.com/_next/static/chunks/polyfills-42372ed130431b0a.js
-File Name: C:\Downloaded Web Sites\dexmev.com\_next\static\chunks\polyfills-42372ed130431b0a.js
+File Name: C:\Downloaded Web Sites\dexmev.com\_next\static\chunks\polyfills-42372ed130431b0a-1.js
 Content Type: application/javascript
 
 Uri: https://dexmev.com/_next/static/chunks/webpack-7a7157402780a4d1.js
+File Name: C:\Downloaded Web Sites\dexmev.com\_next\static\chunks\webpack-7a7157402780a4d1-1.js
+Content Type: application/javascript
+
+Uri: https://dexmev.com/_next/static/css/96aad1a072b85b72.css
+File Name: C:\Downloaded Web Sites\dexmev.com\_next\static\css\96aad1a072b85b72-1.css
+Content Type: text/css
+
+Uri: https://dexmev.com/_next/static/css/981b581b9e76ef64.css
+File Name: C:\Downloaded Web Sites\dexmev.com\_next\static\css\981b581b9e76ef64-1.css
+Content Type: text/css
+
+Uri: https://dexmev.com/_next/static/css/ad78c375a8cf3e24.css
+File Name: C:\Downloaded Web Sites\dexmev.com\_next\static\css\ad78c375a8cf3e24-1.css
+Content Type: text/css
+
+Uri: https://dexmev.com/_next/static/media/9759834640a8c876-s.p.woff2
+File Name: C:\Downloaded Web Sites\dexmev.com\_next\static\media\9759834640a8c876-s.p-1.woff2
+Content Type: font/woff2
+
+Uri: https://dexmev.com/_next/static/media/a22b1dc24103c00d-s.p.woff2
+File Name: C:\Downloaded Web Sites\dexmev.com\_next\static\media\a22b1dc24103c00d-s.p-1.woff2
+Content Type: font/woff2
+
+mev.com/_next/static/chunks/webpack-7a7157402780a4d1.js
 File Name: C:\Downloaded Web Sites\dexmev.com\_next\static\chunks\webpack-7a7157402780a4d1.js
 Content Type: application/javascript
 
