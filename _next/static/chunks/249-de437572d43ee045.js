@@ -1203,7 +1203,7 @@
                 children: (0, a.jsx)(l.A, {
                   ref: A,
                   ...h,
-                  children: g.bt.map((A) =>
+                  children: (Array.isArray(g.bt) && g.bt.length > 0 ? g.bt : [{id: 0, title: 'Нет новостей', tag: 'NEWS'}]).map((A) =>
                     (0, a.jsx)(
                       "li",
                       {
@@ -1545,7 +1545,7 @@
               }),
               (0, a.jsx)("ul", {
                 className: "grid gap-x-6 gap-y-12 mt-10 md:grid-cols-2 w-full",
-                children: r.Go.map((A, t) =>
+                children: (Array.isArray(r.Go) && r.Go.length > 0 ? r.Go : [{title: 'Нет данных', value: 0}]).map((A, t) =>
                   (0, a.jsx)(
                     "li",
                     {
@@ -1645,7 +1645,7 @@
                 }),
                 (0, a.jsx)("div", {
                   className: "hidden gap-2 lg:gap-6 xl:gap-10 lg:flex",
-                  children: n.N3.map((A) =>
+                  children: (Array.isArray(n.N3) && n.N3.length > 0 ? n.N3 : [{name: 'Нет разделов', path: '#'}]).map((A) =>
                     (0, a.jsx)(
                       l(),
                       {
@@ -1706,7 +1706,7 @@
                   transition: { duration: 0.4, ease: "easeOut" },
                   className:
                     "flex flex-shrink-0 flex-grow-0 flex-col px-3 my-auto",
-                  children: n.N3.map((A) =>
+                  children: (Array.isArray(n.N3) && n.N3.length > 0 ? n.N3 : [{name: 'Нет разделов', path: '#'}]).map((A) =>
                     (0, a.jsx)(
                       l(),
                       {
