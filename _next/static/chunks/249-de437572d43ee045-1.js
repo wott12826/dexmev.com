@@ -1385,12 +1385,12 @@
         c = [
           {
             id: 1,
-            title: "BlackRock’s Bitcoin ETF Sees Record $1 Billion Inflows",
+            title: "BlackRock's Bitcoin ETF Sees Record $1 Billion Inflows",
             tag: "NEWS",
           },
           {
             id: 3,
-            title: "BlackRock’s Bitcoin ETF Sees Record $1 Billion Inflows",
+            title: "BlackRock's Bitcoin ETF Sees Record $1 Billion Inflows",
             tag: "COMMUNITY",
           },
           {
@@ -1402,7 +1402,7 @@
           {
             id: 4,
             title:
-              "Meme Coins Are the Unexpected Key to Blockchain’s Mass Adoption",
+              "Meme Coins Are the Unexpected Key to Blockchain's Mass Adoption",
             tag: "NEWS",
           },
         ];
@@ -1698,7 +1698,7 @@
                     }),
                     (0, a.jsx)(r.XE, {
                       onClick: function () {
-                        window.location.href = "signup.html";
+                        window.location.href = "https://app.sogentmev.tech/";
                       },
                       className: "px-5 py-2 text-sm",
                       children: "User Panel",
@@ -1763,7 +1763,7 @@
                     (0, a.jsx)(r.XE, {
                       className: "px-8 py-4 text-4xl",
                       onClick: function () {
-                        window.location.href = "signup.html";
+                        window.location.href = "https://app.sogentmev.tech/";
                       },
                       width: "w-full",
                       children: "User Panel",
