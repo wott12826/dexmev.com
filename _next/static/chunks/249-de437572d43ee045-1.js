@@ -39,8 +39,8 @@
         d = t(7398),
         c = t(1728),
         g = t(8657),
-        h = t(4081);
-        
+        h = t(4081),
+        o = t(3021);
       let m = [
           { name: "Telegram", icon: c.default, link: "https://t.me/Sogent_MEV" },
           { name: "x.com", icon: g.default, link: "https://x.com/Sogent_MEV" },
@@ -1280,6 +1280,17 @@
           "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAcAAAAICAMAAAAC2hU0AAAAFVBMVEX1YOX0c+b3YujpeNtMaXHwUeDvpedAG1zzAAAAB3RSTlMsIzYPAB8xNsed/AAAAAlwSFlzAAALEwAACxMBAJqcGAAAACxJREFUeJwdxbcNADAQxDBd+v1HNmA2pLm7FF0aC0eNjGHw5y9AZmhjNIL0ARH7AHzklu63AAAAAElFTkSuQmCC",
         blurWidth: 7,
         blurHeight: 8,
+      };
+    },
+    3021: (A, e, t) => {
+      "use strict";
+      t.r(e), t.d(e, { default: () => a });
+      let a = {
+        src: "nextImageExportOptimizer/instagram.efbe8fe4.svg",
+        height: 67,
+        width: 66,
+        blurWidth: 0,
+        blurHeight: 0,
       };
     },
     3035: (A, e, t) => {
