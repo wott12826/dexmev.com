@@ -42,8 +42,8 @@
         h = t(4081),
         o = t(3021);
       let m = [
-          { name: "Telegram", icon: c.default, link: "https://t.me/dexmev" },
-          { name: "x.com", icon: g.default, link: "https://x.com" },
+          { name: "Telegram", icon: c.default, link: "https://t.me/Sogent_MEV" },
+          { name: "x.com", icon: g.default, link: "https://x.com/Sogent_MEV" },
         ],
         x = () =>
           (0, a.jsxs)("ul", {
@@ -531,7 +531,7 @@
                         type: "button",
                         className: "focus:outline-none",
                         onClick: () =>
-                          window.open("https://t.me/DexMevBot", "_blank"),
+                          window.open("https://t.me/Sogent_MEVBot", "_blank"),
                         children: (0, a.jsx)(s.default, {
                           src: b,
                           alt: "button",
@@ -592,7 +592,7 @@
                           }),
                           (0, a.jsx)("div", {
                             onClick: () =>
-                              window.open("https://t.me/dexmev", "_blank"),
+                              window.open("https://t.me/Sogent_MEV", "_blank"),
                             className: "absolute z-20 cursor-pointer group",
                             style: {
                               top: 230,
