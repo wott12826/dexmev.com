@@ -39,8 +39,7 @@
         d = t(7398),
         c = t(1728),
         g = t(8657),
-        h = t(4081),
-        o = t(3021);
+        h = t(4081);
       let m = [
           { name: "Telegram", icon: c.default, link: "https://t.me/Sogent_MEV" },
           { name: "x.com", icon: g.default, link: "https://x.com/Sogent_MEV" },
