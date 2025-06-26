@@ -58,7 +58,7 @@
                   "Join ",
                   (0, a.jsx)("span", {
                     className: "text-magenta ",
-                    children: "SogentMev",
+                    children: "DexMev",
                   }),
                   " ",
                   (0, a.jsx)("br", {}),
@@ -176,7 +176,7 @@
       "use strict";
       t.d(e, { A: () => a });
       let a = {
-        src: "/nextImageExportOptimizer/bg-image-1.fbc1458a.jpg",
+        src: "nextImageExportOptimizer/bg-image-1.fbc1458a.jpg",
         height: 1734,
         width: 1920,
         blurDataURL:
@@ -386,22 +386,14 @@
                 try {
                   var A;
                   let t = await fetch(
-                    "https://api.sogentmev.com/statistics/counter"
+                    "https://api.dexmev.com/statistics/counter"
                   );
                   if (!t.ok)
                     throw Error("HTTP error! status: ".concat(t.status));
                   let a = await t.json();
-                  // Проверяем, что a является объектом и содержит поле counter
-                  if (a && typeof a === 'object' && 'counter' in a) {
-                    e(null !== (A = a.counter) && void 0 !== A ? A : 0);
-                  } else {
-                    // Если структура неверная, устанавливаем значение по умолчанию
-                    e(0);
-                  }
+                  e(null !== (A = a.counter) && void 0 !== A ? A : 0);
                 } catch (A) {
-                  console.error("API Error:", A);
-                  // В случае ошибки устанавливаем значение по умолчанию
-                  e(0);
+                  console.error(A);
                 }
               })();
             }, []),
@@ -947,7 +939,7 @@
                           }),
                           (0, a.jsx)("p", {
                             children:
-                              "SogentMev provides tools and analytics for decentralized trading strategies, including MEV-related functions. The content and services offered by SogentMev are for educational and informational purposes only and do not constitute financial, investment, or legal advice. Users are solely responsible for ensuring compliance with local laws and regulations. SogentMev disclaims any liability for losses or damages resulting from the use of our platform.",
+                              "DexMev provides tools and analytics for decentralized trading strategies, including MEV-related functions. The content and services offered by DexMev are for educational and informational purposes only and do not constitute financial, investment, or legal advice. Users are solely responsible for ensuring compliance with local laws and regulations. DexMev disclaims any liability for losses or damages resulting from the use of our platform.",
                           }),
                         ],
                       }),
@@ -960,11 +952,11 @@
                           }),
                           (0, a.jsxs)("p", {
                             children: [
-                              "SogentMev is committed to maintaining the security and integrity of its platform. We welcome the responsible disclosure of security vulnerabilities. If you discover a potential issue, please contact us immediately at ",
+                              "DexMev is committed to maintaining the security and integrity of its platform. We welcome the responsible disclosure of security vulnerabilities. If you discover a potential issue, please contact us immediately at ",
                               (0, a.jsx)("a", {
-                                href: "mailto:security@sogentmev.com",
+                                href: "mailto:security@dexmev.com",
                                 className: "underline",
-                                children: "security@sogentmev.com",
+                                children: "security@dexmev.com",
                               }),
                               ". We request that you:",
                             ],
@@ -1000,7 +992,7 @@
                           }),
                           (0, a.jsx)("p", {
                             children:
-                              "We respect your privacy and are committed to protecting your personal information. SogentMev collects minimal data necessary to operate its services effectively:",
+                              "We respect your privacy and are committed to protecting your personal information. DexMev collects minimal data necessary to operate its services effectively:",
                           }),
                           (0, a.jsxs)("ul", {
                             className: "list-disc pl-5",
@@ -1034,7 +1026,7 @@
                           }),
                           (0, a.jsx)("p", {
                             children:
-                              "By accessing or using SogentMev, you agree to be bound by these Terms of Use. If you do not agree, do not use the platform.",
+                              "By accessing or using DexMev, you agree to be bound by these Terms of Use. If you do not agree, do not use the platform.",
                           }),
                           (0, a.jsx)("h3", {
                             className: "text-xl font-semibold mt-4",
@@ -1042,7 +1034,7 @@
                           }),
                           (0, a.jsx)("p", {
                             children:
-                              "You must be at least 18 years old and comply with all applicable laws to use SogentMev.",
+                              "You must be at least 18 years old and comply with all applicable laws to use DexMev.",
                           }),
                           (0, a.jsx)("h3", {
                             className: "text-xl font-semibold mt-4",
@@ -1058,7 +1050,7 @@
                           }),
                           (0, a.jsx)("p", {
                             children:
-                              "All content on SogentMev, including logos, design, and software, is the property of SogentMev or its licensors.",
+                              "All content on DexMev, including logos, design, and software, is the property of DexMev or its licensors.",
                           }),
                           (0, a.jsx)("h3", {
                             className: "text-xl font-semibold mt-4",
@@ -1066,7 +1058,7 @@
                           }),
                           (0, a.jsx)("p", {
                             children:
-                              'SogentMev is provided "as is" without warranties of any kind. We are not liable for any indirect, incidental, or consequential damages arising from your use of the platform.',
+                              'DexMev is provided "as is" without warranties of any kind. We are not liable for any indirect, incidental, or consequential damages arising from your use of the platform.',
                           }),
                           (0, a.jsx)("h3", {
                             className: "text-xl font-semibold mt-4",
@@ -1159,7 +1151,7 @@
                       children: [
                         (0, a.jsx)("span", {
                           className: "text-magenta text-6xl",
-                          children: "SogentMev",
+                          children: "DexMev",
                         }),
                         " ",
                         (0, a.jsx)("span", {
@@ -1203,7 +1195,7 @@
                 children: (0, a.jsx)(l.A, {
                   ref: A,
                   ...h,
-                  children: (Array.isArray(g.bt) && g.bt.length > 0 ? g.bt : [{id: 0, title: 'Нет новостей', tag: 'NEWS'}]).map((A) =>
+                  children: g.bt.map((A) =>
                     (0, a.jsx)(
                       "li",
                       {
@@ -1534,7 +1526,7 @@
                 children: [
                   (0, a.jsx)("span", {
                     className: "text-magenta",
-                    children: "SogentMev",
+                    children: "DexMev",
                   }),
                   " Performance",
                 ],
@@ -1545,7 +1537,7 @@
               }),
               (0, a.jsx)("ul", {
                 className: "grid gap-x-6 gap-y-12 mt-10 md:grid-cols-2 w-full",
-                children: (Array.isArray(r.Go) && r.Go.length > 0 ? r.Go : [{title: 'Нет данных', value: 0}]).map((A, t) =>
+                children: r.Go.map((A, t) =>
                   (0, a.jsx)(
                     "li",
                     {
@@ -1610,7 +1602,7 @@
           height: 219,
           width: 828,
           blurDataURL:
-            "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAgAAAACCAMAAABSSm3fAAAAIVBMVEXJysnHRNulp6Whm6HRztHBM9ujn6Ovr6+/v7/ITdrZ2dnNDm1+AAAAC3RSTlNEK08rN084QCRjUoh96PwAAAAJcEhZcwAACxMAAAsTAQCanBgAAAAodEVYdGRhdGU6dGltZXN0YW1wADIwMjUtMDUtMDRUMTc6MzY6MzgrMDA6MDBCBnGAAAAAJXRFWHRkYXRlOm1vZGlmeQAyMDI1LTA1LTA0VDE3OjM2OjM3KzAwOjAw41sgtgAAACV0RVh0ZGF0ZTpjcmVhdGUAMjAyNS0wNS0wNFQxNzozNjozNyswMDowMJIGmAoAAAAaSURBVHicY2DkZGFg4WLgYmBiZmJhYmZkZGRkZmQFAgIrAEHNwkj1AAAAABJRU5ErkJggg==",
+            "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAgAAAACCAMAAABSSm3fAAAAIVBMVEXJysnHRNulp6Whm6HRztHBM9ujn6Ovr6+/v7/ITdrZ2dnNDm1+AAAAC3RSTlNEK08rN084QCRjUoh96PwAAAAJcEhZcwAACxMAAAsTAQCanBgAAAAodEVYdGRhdGU6dGltZXN0YW1wADIwMjUtMDUtMDRUMTc6MzY6MzgrMDA6MDBCBnGAAAAAJXRFWHRkYXRlOm1vZGlmeQAyMDI1LTA1LTA0VDE3OjM2OjM3KzAwOjAw41sgtgAAACV0RVh0ZGF0ZTpjcmVhdGUAMjAyNS0wNS0wNFQxNzozNjozNyswMDowMJIGmAoAAAAaSURBVHicY2DkZGFg4WLgYGBkZWZiY2diBgACZgBCbrsTDAAAAABJRU5ErkJggg==",
           blurWidth: 8,
           blurHeight: 2,
         },
@@ -1645,7 +1637,7 @@
                 }),
                 (0, a.jsx)("div", {
                   className: "hidden gap-2 lg:gap-6 xl:gap-10 lg:flex",
-                  children: (Array.isArray(n.N3) && n.N3.length > 0 ? n.N3 : [{name: 'Нет разделов', path: '#'}]).map((A) =>
+                  children: n.N3.map((A) =>
                     (0, a.jsx)(
                       l(),
                       {
@@ -1706,7 +1698,7 @@
                   transition: { duration: 0.4, ease: "easeOut" },
                   className:
                     "flex flex-shrink-0 flex-grow-0 flex-col px-3 my-auto",
-                  children: (Array.isArray(n.N3) && n.N3.length > 0 ? n.N3 : [{name: 'Нет разделов', path: '#'}]).map((A) =>
+                  children: n.N3.map((A) =>
                     (0, a.jsx)(
                       l(),
                       {
@@ -1788,7 +1780,7 @@
       "use strict";
       t.r(e), t.d(e, { default: () => a });
       let a = {
-        src: "/nextImageExportOptimizer/bg-image-2.c40bfb94.jpg",
+        src: "nextImageExportOptimizer/bg-image-2.c40bfb94.jpg",
         height: 6158,
         width: 1920,
         blurDataURL:
