@@ -43,11 +43,6 @@
         o = t(3021);
       let m = [
           { name: "Telegram", icon: c.default, link: "https://t.me/dexmev" },
-          {
-            name: "Discord",
-            icon: h.default,
-            link: "https://discord.gg/jzZBYRDBPy",
-          },
           { name: "x.com", icon: g.default, link: "https://x.com" },
           {
             name: "Instagram",
@@ -631,11 +626,6 @@
                             }),
                           }),
                           (0, a.jsx)("div", {
-                            onClick: () =>
-                              window.open(
-                                "https://discord.gg/YA9CyE5Pjs",
-                                "_blank"
-                              ),
                             className: "absolute z-20 cursor-pointer group",
                             style: {
                               top: 310,
@@ -833,26 +823,6 @@
                               window.open("get-invate.html", "_blank");
                             },
                             children: "Join Beta",
-                          }),
-                          (0, a.jsxs)(r.XE, {
-                            color: "blue",
-                            width: "max-[500px]:w-2/3",
-                            className:
-                              "flex items-center gap-4 lg:gap-2 text-4xl lg:text-lg px-12 max-lg:px-14 max-lg:py-4 leading-tight",
-                            onClick: () =>
-                              window.open(
-                                "https://discord.gg/YA9CyE5Pjs",
-                                "_blank"
-                              ),
-                            children: [
-                              (0, a.jsx)(i.default, {
-                                src: g,
-                                alt: "discord",
-                                className: "max-lg:w-[42px]",
-                              }),
-                              " ",
-                              "Discord",
-                            ],
                           }),
                         ],
                       }),
