@@ -1282,17 +1282,6 @@
         blurHeight: 8,
       };
     },
-    3021: (A, e, t) => {
-      "use strict";
-      t.r(e), t.d(e, { default: () => a });
-      let a = {
-        src: "nextImageExportOptimizer/instagram.efbe8fe4.svg",
-        height: 67,
-        width: 66,
-        blurWidth: 0,
-        blurHeight: 0,
-      };
-    },
     3035: (A, e, t) => {
       "use strict";
       t.r(e), t.d(e, { default: () => a });
