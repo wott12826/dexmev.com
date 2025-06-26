@@ -391,9 +391,17 @@
                   if (!t.ok)
                     throw Error("HTTP error! status: ".concat(t.status));
                   let a = await t.json();
-                  e(null !== (A = a.counter) && void 0 !== A ? A : 0);
+                  // Проверяем, что a является объектом и содержит поле counter
+                  if (a && typeof a === 'object' && 'counter' in a) {
+                    e(null !== (A = a.counter) && void 0 !== A ? A : 0);
+                  } else {
+                    // Если структура неверная, устанавливаем значение по умолчанию
+                    e(0);
+                  }
                 } catch (A) {
-                  console.error(A);
+                  console.error("API Error:", A);
+                  // В случае ошибки устанавливаем значение по умолчанию
+                  e(0);
                 }
               })();
             }, []),

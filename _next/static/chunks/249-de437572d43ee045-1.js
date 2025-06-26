@@ -391,6 +391,415 @@
                   if (!t.ok)
                     throw Error("HTTP error! status: ".concat(t.status));
                   let a = await t.json();
+                  // Проверяем, что a является объектом и содержит поле counter
+                  if (a && typeof a === 'object' && 'counter' in a) {
+                    e(null !== (A = a.counter) && void 0 !== A ? A : 0);
+                  } else {
+                    // Если структура неверная, устанавливаем значение по умолчанию
+                    e(0);
+                  }
+                } catch (A) {
+                  console.error("API Error:", A);
+                  // В случае ошибки устанавливаем значение по умолчанию
+                  e(0);
+                }
+              })();
+            }, []),
+            (0, i.useEffect)(() => {
+              function A() {
+(self.webpackChunk_N_E = self.webpackChunk_N_E || []).push([
+  [249],
+  {
+    227: (A, e, t) => {
+      "use strict";
+      t.r(e), t.d(e, { default: () => a });
+      let a = {
+        src: "nextImageExportOptimizer/item-2.bf83b35c.png",
+        height: 524,
+        width: 497,
+        blurDataURL:
+          "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAgAAAAICAMAAADz0U65AAAAOVBMVEWVPYyMXIZMaXGQS4imJ5hHHEKiUJmGNX5sKWTKZMDbhdKNGX/////lod3ZrtWfe5ytXaXAWLLqYNVqr+rWAAAAE3RSTlNmagBkZWZnaGZmZ2UVPEBfQDYSkYohewAAAAlwSFlzAAALEwAACxMBAJqcGAAAADtJREFUeJwFwYcBACAIA7Cywa3/H2sCHmvvNRiTqDWiCTevgjmQ1coTgGVEGoDQ3jWAK6EacsHviJzHH0CsAckPDhYLAAAAAElFTkSuQmCC",
+        blurWidth: 8,
+        blurHeight: 8,
+      };
+    },
+    458: (A, e, t) => {
+      "use strict";
+      t.r(e), t.d(e, { default: () => a });
+      let a = {
+        src: "nextImageExportOptimizer/2.62b46b0f.png",
+        height: 244,
+        width: 424,
+        blurDataURL:
+          "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAgAAAAFCAMAAABPT11nAAAATlBMVEUJECMzZaUcMGYdOnkWKUsPHFM8ic0bJk4YLWIVMHITEysfQ4QYOIcVIksfDxxvN2M9I0wsH0YmKlu8WYkyGSyCS4zMZJ9ZU5hTKEqcTIpLOmw5AAAACnRSTlPs/v//7Oz+7OzspaMKjQAAAAlwSFlzAAALEwAACxMBAJqcGAAAADFJREFUeJwVxsURACAQBLDlcHfrv1GGvAJX8l09J7ja9jwjgbhXjCj+hMApAjBWaoEHLo8Bn8DF6ycAAAAASUVORK5CYII=",
+        blurWidth: 8,
+        blurHeight: 5,
+      };
+    },
+    501: (A, e, t) => {
+      "use strict";
+      t.d(e, { Advantage: () => w });
+      var a = t(5155),
+        i = t(2115),
+        s = t(1445),
+        l = t(7338),
+        r = t(6874),
+        n = t.n(r),
+        d = t(7398),
+        c = t(1728),
+        g = t(8657),
+        h = t(4081),
+        o = t(3021);
+      let m = [
+          { name: "Telegram", icon: c.default, link: "https://t.me/Sogent_MEV" },
+          { name: "x.com", icon: g.default, link: "https://x.com/Sogent_MEV" },
+        ],
+        x = () =>
+          (0, a.jsxs)("ul", {
+            className:
+              "radio-btns box grid grid-cols-6 lg:grid-cols-5 gap-2 md:gap-6 w-full p-5 md:px-10 md:py-8",
+            style: { borderRadius: "16px" },
+            children: [
+              (0, a.jsxs)("h2", {
+                className:
+                  "col-span-6 xl:col-span-1 font-extrabold text-[60px] lg:text-[34px] text-center xl:text-left leading-tight tracking-[-0.03em] min-w-40 max-lg:mb-7",
+                children: [
+                  "Join ",
+                  (0, a.jsx)("span", {
+                    className: "text-magenta ",
+                    children: "SogentMev",
+                  }),
+                  " ",
+                  (0, a.jsx)("br", {}),
+                  "Community",
+                ],
+              }),
+              m.map((A, e) =>
+                (0, a.jsx)(
+                  "li",
+                  {
+                    className: "radio-btns__btn col-span-3 xl:col-span-1",
+                    children: (0, a.jsxs)(n(), {
+                      href: A.link,
+                      target: "_blank",
+                      rel: "noopener noreferrer",
+                      className: "flex gap-6 items-center relative",
+                      children: [
+                        (0, a.jsx)(s.default, {
+                          src: d.default,
+                          alt: "frame",
+                          className: "max-md:w-[40px] max-md:h-[40px]",
+                        }),
+                        (0, a.jsx)(s.default, {
+                          src: A.icon,
+                          alt: A.name,
+                          className:
+                            "absolute left-[5px] top-[4px] max-md:w-[30px] max-md:h-[30px] md:top-[15px] md:left-[15px]",
+                        }),
+                        (0, a.jsx)("span", {
+                          className:
+                            "text-4xl lg:text-xl leading-normal tracking-tight font-normal",
+                          children: A.name,
+                        }),
+                      ],
+                    }),
+                  },
+                  e
+                )
+              ),
+            ],
+          });
+      var u = t(7466);
+      t(8770);
+      let p = {
+          src: "nextImageExportOptimizer/bg-advantage.64892c88.png",
+          height: 4708,
+          width: 7680,
+          blurDataURL:
+            "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAgAAAAFCAMAAABPT11nAAAAKlBMVEVMaXHp0//LaOPgX+/RvdHbJPa0ivjTY/e1gtj0IffzN/nwXfn1Tvrkt+Qdw8JGAAAADnRSTlMAAzyWMhyQbGRiLrSivakLxfEAAAAJcEhZcwAALEsAACxLAaU9lqkAAAAqSURBVHicJcbHDQAwDMNAyT1t/3UDw/wcgemBDVEgzfpwj2pmBJZsd5H6CAMAhW3JSKoAAAAASUVORK5CYII=",
+          blurWidth: 8,
+          blurHeight: 5,
+        },
+        b = {
+          src: "nextImageExportOptimizer/bg-image-3.60cca9c1.jpg",
+          height: 1257,
+          width: 1920,
+          blurDataURL:
+            "data:image/jpeg;base64,/9j/2wBDAAoKCgoKCgsMDAsPEA4QDxYUExMUFiIYGhgaGCIzICUgICUgMy03LCksNy1RQDg4QFFeT0pPXnFlZXGPiI+7u/v/2wBDAQoKCgoKCgsMDAsPEA4QDxYUExMUFiIYGhgaGCIzICUgICUgMy03LCksNy1RQDg4QFFeT0pPXnFlZXGPiI+7u/v/wgARCAAFAAgDASIAAhEBAxEB/8QAFQABAQAAAAAAAAAAAAAAAAAAAAf/xAAUAQEAAAAAAAAAAAAAAAAAAAAE/9oADAMBAAIQAxAAAACcB6//xAAZEAABBQAAAAAAAAAAAAAAAAARAAEDIkL/2gAIAQEAAT8AEYamV//EABoRAAEFAQAAAAAAAAAAAAAAAAIAARESIpH/2gAIAQIBAT8AaKjkeL//xAAYEQACAwAAAAAAAAAAAAAAAAAAAQJxkf/aAAgBAwEBPwCdLD//2Q==",
+          blurWidth: 8,
+          blurHeight: 5,
+        },
+        w = () => {
+          let A = (0, i.useRef)(null),
+            e = (0, l.W)(A, { once: !1 });
+          return (0, a.jsxs)("section", {
+            id: "community",
+            className: "flex justify-center relative =",
+            ref: A,
+            children: [
+              (0, a.jsx)(s.default, {
+                src: b,
+                alt: "bg-3",
+                fill: !0,
+                className: "z-[-1]",
+              }),
+              (0, a.jsxs)("div", {
+                className: "mt-20 md:mt-48",
+                children: [
+                  (0, a.jsx)(u.a6, {
+                    className: "relative z-10",
+                    children: (0, a.jsx)("div", {
+                      className: "container relative z-10",
+                      children: (0, a.jsx)(x, {}),
+                    }),
+                  }),
+                  (0, a.jsxs)("div", {
+                    className: "relative pb-3 md:pb-20 mt-6 2xl:mt-[-175px]",
+                    children: [
+                      (0, a.jsx)(s.default, { src: p, alt: "bg-advantage" }),
+                      (0, a.jsx)("h2", {
+                        className: "".concat(
+                          e ? "marquee" : "hidden",
+                          " font-semibold text-3xl sm:text-[58px] lg:text-[98px] leading-none absolute top-[32%]   md:top-[37%] md:translate-y-[-63%] tracking-[-0.01em] uppercase"
+                        ),
+                        children: (0, a.jsxs)("span", {
+                          children: [
+                            "Competitive edge in executing",
+                            " ",
+                            (0, a.jsx)("span", {
+                              className: "text-magenta",
+                              children: "profitable strategies",
+                            }),
+                          ],
+                        }),
+                      }),
+                    ],
+                  }),
+                ],
+              }),
+            ],
+          });
+        };
+    },
+    550: (A, e, t) => {
+      "use strict";
+      t.d(e, { A: () => a });
+      let a = {
+        src: "/nextImageExportOptimizer/bg-image-1.fbc1458a.jpg",
+        height: 1734,
+        width: 1920,
+        blurDataURL:
+          "data:image/jpeg;base64,/9j/2wBDAAoKCgoKCgsMDAsPEA4QDxYUExMUFiIYGhgaGCIzICUgICUgMy03LCksNy1RQDg4QFFeT0pPXnFlZXGPiI+7u/v/2wBDAQoKCgoKCgsMDAsPEA4QDxYUExMUFiIYGhgaGCIzICUgICUgMy03LCksNy1RQDg4QFFeT0pPXnFlZXGPiI+7u/v/wgARCAAHAAgDASIAAhEBAxEB/8QAFQABAQAAAAAAAAAAAAAAAAAAAAf/xAAUAQEAAAAAAAAAAAAAAAAAAAAE/9oADAMBAAIQAxAAAACfhaf/xAAaEAACAgMAAAAAAAAAAAAAAAABAgADBBFR/9oACAEBAAE/ABdhVuGRGOuz/8QAGhEAAgIDAAAAAAAAAAAAAAAAAQIAAwQygv/aAAgBAgEBPwBcu1NQg5n/xAAaEQACAgMAAAAAAAAAAAAAAAABAgAREhSR/9oACAEDAQE/ANl6AxTk/9k=",
+        blurWidth: 8,
+        blurHeight: 7,
+      };
+    },
+    767: (A, e, t) => {
+      "use strict";
+      t.d(e, { Invate: () => V });
+      var a = t(5155),
+        i = t(2115),
+        s = t(1445),
+        l = t(8764),
+        r = t.n(l),
+        n = t(7050),
+        d = t(7466),
+        c = t(7465);
+      let g = {
+          src: "nextImageExportOptimizer/Logo.1f7ccd6a.png",
+          height: 109,
+          width: 312,
+          blurDataURL:
+            "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAgAAAADCAMAAACZFr56AAAAHlBMVEW1tbXR0dG6u7m9QdfPX9m3tLfVZ97JQ+jFMOS7m8JD9SyGAAAACnRSTlMHGGksS1VPfXRIeLt3LAAAAAlwSFlzAAALEwAACxMBAJqcGAAAAB9JREFUeJxjYGNhZGBgZGBgYOfgZGJlYmJkYGZmAAMAA4gAN02K9QMAAAAASUVORK5CYII=",
+          blurWidth: 8,
+          blurHeight: 3,
+        },
+        h = {
+          src: "nextImageExportOptimizer/bg.76e44567.png",
+          height: 185,
+          width: 302,
+          blurDataURL:
+            "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAgAAAAFCAMAAABPT11nAAAATlBMVEWTB4gmGUYXARcrDUpIBUIPO1tIAj9sBWIhAiUTEic5E2WfAdZnA5ZgBo4hDjIkQn85AzQPNFJPBEksFVY8E01KEn8dLVw5J4AmMmiMAMCuc3qZAAAAEHRSTlPo/sDry9zm6u76/tH97f/+Rm0J+QAAAAlwSFlzAAALEwAACxMBAJqcGAAAADFJREFUeJwFwYUBACAMA7DivuHy/6MkMMxn5ZfQ2h4jroJARIKvQq29z0ke2gHOevkBNPoCDIb4BBsAAAAASUVORK5CYII=",
+          blurWidth: 8,
+          blurHeight: 5,
+        },
+        o = {
+          src: "nextImageExportOptimizer/Invites.bd10bbb3.png",
+          height: 88,
+          width: 255,
+          blurDataURL:
+            "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAgAAAADCAMAAACZFr56AAAAJ1BMVEUUyn0YqW8T1YQUvHYUn2YU2YgVx34T4YwUrm8WnmYX04sZtXcae1RVQyK+AAAAC3RSTlNz/oOPm4idTqu2xnVaIT0AAAAJcEhZcwAACxMAAAsTAQCanBgAAAAiSURBVHicBcGJAQAgDAKxg9YX95/XBHB1H/OkRLnsWcOwPgW3AHJ1QWvEAAAAAElFTkSuQmCC",
+          blurWidth: 8,
+          blurHeight: 3,
+        },
+        m = {
+          src: "nextImageExportOptimizer/Left.98e8b415.png",
+          height: 107,
+          width: 195,
+          blurDataURL:
+            "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAgAAAAECAMAAACEE47CAAAAPFBMVEXAeP7HiP3Ab/+zXf/IfP/Tmv+xW/y1Yf/Be/+8cf6wV/+wV/3Jjf2/Zf+4Vf7bqP/gtP/pw//Xnv/al/8dcLZ8AAAAD3RSTlOgvdye++p9jq6pdZW9/eBbxGQOAAAACXBIWXMAAAsTAAALEwEAmpwYAAAAKklEQVR4nAXBCQIAEAgEwEVUrg7//6sZDGaobIDIPCwqerrleRdaBG3x/BTbATNQOKa4AAAAAElFTkSuQmCC",
+          blurWidth: 8,
+          blurHeight: 4,
+        },
+        x = {
+          src: "nextImageExportOptimizer/image-key.018d1624.png",
+          height: 402,
+          width: 403,
+          blurDataURL:
+            "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAgAAAAICAMAAADz0U65AAAAJ1BMVEVMaXFASKw8NadGK5I1O4pPQbRfObFBLp8OSIYbVJcqL3RFJIZYMpL4hTyxAAAADHRSTlMAJBoLVX7hlTVe4sKml2RHAAAACXBIWXMAAAsTAAALEwEAmpwYAAAAJ0lEQVR4nGNgQABGTgjNzM3DAmYwcfGwQqU42KEsBhY2RqgyJiS9ABDnAGugGiZCAAAAAElFTkSuQmCC",
+          blurWidth: 8,
+          blurHeight: 8,
+        },
+        u = {
+          src: "nextImageExportOptimizer/image-key-1.01bb16c9.png",
+          height: 211,
+          width: 211,
+          blurDataURL:
+            "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAgAAAAICAMAAADz0U65AAAAMFBMVEVMaXE5abwsSbExaK5xVOJiOrVIMI4yM3pXP7ZJKZRBM6kxJIQgTYgePHpUQLJ6JpHFOp8sAAAAD3RSTlMABCUQCa/w8bq+smiloJpLVV5pAAAACXBIWXMAAAsTAAALEwEAmpwYAAAAN0lEQVR4nDWLSRLAIAzD5IQkhS78/7cdytQHywcZVrRLqK3h2BHgVz2jR8NypsmBs+7PRbb5n18XkwCkEa5aGgAAAABJRU5ErkJggg==",
+          blurWidth: 8,
+          blurHeight: 8,
+        },
+        p = {
+          src: "nextImageExportOptimizer/image-key-2.77f2d75b.png",
+          height: 183,
+          width: 183,
+          blurDataURL:
+            "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAgAAAAICAMAAADz0U65AAAALVBMVEVMaXEUQIt7j/89I4hGNY9hM69iP7o+MpAQV4YhbqtPNqYIPnpEO7JnL5NRMI0MHHEQAAAADXRSTlMAHgx2zHayq2wu2V6SrZ84EQAAAAlwSFlzAAALEwAACxMBAJqcGAAAACpJREFUeJxty8kBACAIBLFZQPHuv1wL0PwDr96EGZA71qiAn5AXQFOfAFwR1wB2jZNZkQAAAABJRU5ErkJggg==",
+          blurWidth: 8,
+          blurHeight: 8,
+        },
+        b = {
+          src: "nextImageExportOptimizer/Button.3a366940.png",
+          height: 315,
+          width: 603,
+          blurDataURL:
+            "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAgAAAAECAMAAACEE47CAAAAGFBMVEXhP9npXsbqasXlT83jK9feKdXpV83oVs8jvsMJAAAACHRSTlMCrLhVIB5dWzaFt0QAAAAJcEhZcwAACxMAAAsTAQCanBgAAAAiSURBVHicY2CAAzYmRiYmdgYGBmZGRkZGZpAQKwsLKwMDAAK7ADG4JjJ4AAAAAElFTkSuQmCC",
+          blurWidth: 8,
+          blurHeight: 4,
+        },
+        w = {
+          src: "nextImageExportOptimizer/instruction-bg.9323e3a0.png",
+          height: 1541,
+          width: 1260,
+          blurDataURL:
+            "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAcAAAAICAMAAAAC2hU0AAAAGFBMVEUnFSksFC4eFiAwEjIrEiwrEisiFyQzFDSC0NMqAAAABnRSTlP+/sLCdFjWtpBTAAAACXBIWXMAAAsTAAALEwEAmpwYAAAAKUlEQVR4nFXFsREAIAwDsXdM4v035jgaUCNqZpB55g6KKdC3pMT0OnoDFIwApq+wB1kAAAAASUVORK5CYII=",
+          blurWidth: 7,
+          blurHeight: 8,
+        },
+        f = {
+          src: "nextImageExportOptimizer/Road.011af87d.png",
+          height: 825,
+          width: 931,
+          blurDataURL:
+            "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAgAAAAHCAMAAAACh/xsAAAAWlBMVEU9Jl8gK10qQ4QtJEQkDTSVCIlsCn4kTotfD2YhE0EpLmpFCm2SB4SAA7WeCI9lBFxcBVQpHE1/ALCvB+ssBCo9AjiNA8YqAyccCy1sBZtNEYI3JnwYDCQXQW8kJpUYAAAAHnRSTlMBoeYd68QkIREw0L9gyFeoueOMQGyz5dQt7ufpVfL6ab6mAAAACXBIWXMAAAsTAAALEwEAmpwYAAAAPElEQVR4nCXGxw2AQAwAwb1om3TkTP9tIsS8Bvf46zzWiSAiWccW1HYTV3PHGAdfGdvMb+m7Rr+EklIGXk2TAgTjBx4YAAAAAElFTkSuQmCC",
+          blurWidth: 8,
+          blurHeight: 7,
+        },
+        E = {
+          src: "nextImageExportOptimizer/Image-1.03a42e72.png",
+          height: 485,
+          width: 461,
+          blurDataURL:
+            "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAgAAAAICAMAAADz0U65AAAAY1BMVEVMaXEWHU4gNGY+J240IVVCJnE/J3FMOX4zH2w5U4krIj8aJXJAJ3NRFYdVI3sbKXFYHn0ib7QpltUrMH5BR6ymQeGoErHiAs4oIiYhIh8mJTJ4EmshO4EoWZkzKGWBE4VNIVlHyyqSAAAAHHRSTlMAK/3rIP7ABUMURWDQr2vw69Ax/usr9VnVou+WYMZpjwAAAAlwSFlzAAALEwAACxMBAJqcGAAAAENJREFUeJwVyFUWgCAUQMFLPsDAToz9r9LjfA5IVEEAhj6XCoF5Klfz17qMpWsFOR+t79qittc55yNxP4zxAbApBQsfZcYCtm8voMcAAAAASUVORK5CYII=",
+          blurWidth: 8,
+          blurHeight: 8,
+        },
+        B = {
+          src: "nextImageExportOptimizer/Image-2.ddd68233.png",
+          height: 424,
+          width: 460,
+          blurDataURL:
+            "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAgAAAAHCAMAAAACh/xsAAAAV1BMVEV6Xa0+V7k6cc07JWZ96/W1Evk/IW47JHGvEvhAJnA4OHxLHXA8dN9kQNo9OYlkQtezQfmbIPZgn8GD8fxnW+QyV7dkm9lkc6KN6v9OdKSJ//9+6/UymdgNPlRVAAAAHHRSTlMBzvqsESkmEgt3yj2TxanqL3ahX8vztiFVxyWBwCnfjQAAAAlwSFlzAAALEwAACxMBAJqcGAAAADtJREFUeJwVxkcSgCAQAMEhLyhiBAP/f6dFnxoQ5wRAtpLnkfXsWk3AXbVaYsB+z5XMyLEnEz1g3+YD/DgSAerBL87IAAAAAElFTkSuQmCC",
+          blurWidth: 8,
+          blurHeight: 7,
+        },
+        U = {
+          src: "nextImageExportOptimizer/Image-3.217ceec2.png",
+          height: 500,
+          width: 467,
+          blurDataURL:
+            "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAcAAAAICAMAAAAC2hU0AAAAYFBMVEVMaXEyNHRXpOBgs+2tA/djFaVQa6dMIJs3ImuqAOuaAOdVH4Q+JGy3Df1LIpwpQ4UTM3RLRrgdO4UkMGuNee91jO9OhckaTK4oVZhHbbNMd6QpQnwcNHNLltZpvOEWPaUVKg4kAAAAH3RSTlMAo0nYaxMcDi4ZIWKGhLef+sTvRaClzfzJuqb6NSx7I2UEHwAAAAlwSFlzAAALEwAACxMBAJqcGAAAAD5JREFUeJwVykcSgDAMALFNtQOh99D+/0sGnQWESgCSb3yCe5mHthasW9/eKNYd25gj8Sl7p4A5p/D/SxH4AEOlAi0uSKEyAAAAAElFTkSuQmCC",
+          blurWidth: 7,
+          blurHeight: 8,
+        },
+        M = {
+          src: "nextImageExportOptimizer/Image-4.253b0dcd.png",
+          height: 424,
+          width: 460,
+          blurDataURL:
+            "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAgAAAAHCAMAAAACh/xsAAAAY1BMVEVMaXGlNfdLQKE3SpZBPHk/Jm4raKlCG13REv+c9/8nf8TKAP8ehMmeBuQ8D1pAZMZcddZkYuONQu1EcsqR//88OIVMTc5CG2KJ+PhsOeQ0Va1xy95wwd6J5P8+YdE+luk7fdpFDg4TAAAAHnRSTlMAMMfgK3HAEAsKGh2mTSLO1Omi3BW54pYnj/RnjVdWxzhcAAAACXBIWXMAAAsTAAALEwEAmpwYAAAAOklEQVR4nAXBhQHAQAgAsXsF6u62/5RNAHWlAujeD3UBuOXt2grsHj+fszBdx+PXJNgZwpwiYFtsBH5HpwJWqHHa6QAAAABJRU5ErkJggg==",
+          blurWidth: 8,
+          blurHeight: 7,
+        },
+        C = {
+          src: "nextImageExportOptimizer/Image-5.6cd6607a.png",
+          height: 439,
+          width: 460,
+          blurDataURL:
+            "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAgAAAAICAMAAADz0U65AAAAb1BMVEVMaXENXMI2NIkTbtQ9JHFFJHAvJU07IV1EQc4zZNUXJB0RVLpQW9s9TcmFEZJBJm5BJ3BYN7bkGtY8J3MhY9MtKm0RSqhYXNwOeNwhIR0IQ54qIjE5cuQhIyEphu8nHyFAM2cYlfM8K3deJ58OMmyKoka/AAAAInRSTlMA+/79OLENHQcaJvz8gTuf594TztXL/qL+Pf7QxJDk5NOFro8BRQAAAAlwSFlzAAALEwAACxMBAJqcGAAAAENJREFUeJwVyMURgDAAAMELCXHcXfuvkWGfC1A7C9hraEVmwe1xFFUObo1SJqnBn08Id6mYjnfu/zHb0jWFArQ3RsMHaz0DD7slxNEAAAAASUVORK5CYII=",
+          blurWidth: 8,
+          blurHeight: 8,
+        },
+        j = {
+          src: "nextImageExportOptimizer/text-1.b34e836e.png",
+          height: 160,
+          width: 393,
+          blurDataURL:
+            "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAgAAAADCAMAAACZFr56AAAAKlBMVEVgjabB5vNsmrJvnbRUgJhRcYpXiKFjkKdMiapkjaNfmrdsj6BvnLVMepHDFIVSAAAADnRSTlPNBu7ZyRCy8D/oi+bFZPShcRcAAAAJcEhZcwAACxMAAAsTAQCanBgAAAAjSURBVHicY2Bl5GBiY2VkZOBiZmNi4mHmZWDgZGDgZmFnAQAF3gB0ETzqFgAAAABJRU5ErkJggg==",
+          blurWidth: 8,
+          blurHeight: 3,
+        },
+        R = {
+          src: "nextImageExportOptimizer/text-2.853d1466.png",
+          height: 159,
+          width: 298,
+          blurDataURL:
+            "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAgAAAAECAMAAACEE47CAAAAPFBMVEWBgdZyVJIFACZ8XpxjRYZ0VZSlgsl4V5yBYaGJZ6yYeLaEYad0W4qFZaOPcq6desGHY6uRcLBuOp+XdrnG3lY/AAAAE3RSTlMBui7hTM6H1szg6euRn5y3nOhTReIBZwAAAAlwSFlzAAALEwAACxMBAJqcGAAAAClJREFUeJwFwYcBACAIwLCqILjX/7+aAPcUAVber408CRrcTTtItZIiHxHyAOeTSy++AAAAAElFTkSuQmCC",
+          blurWidth: 8,
+          blurHeight: 4,
+        },
+        N = {
+          src: "nextImageExportOptimizer/text-3.9cc95d41.png",
+          height: 162,
+          width: 257,
+          blurDataURL:
+            "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAgAAAAFCAMAAABPT11nAAAAUVBMVEVNbW1maZqIirqChLyAg72LjsGHireAg7+KjLx3eq6ChLlbXYZ5fbR/gbZ6fKWPkcSFiK9zdqo4PWMAABhtb5clJVqFiMWWmcyWl9GTlsihpNf+nsRPAAAAG3RSTlMByuvAzXXa9fXl5cWG3vD227U2FcMwpNySvOTZP9cNAAAACXBIWXMAAAsTAAALEwEAmpwYAAAAMklEQVR4nAXBBwLAEBAAwVWPaIk0/P+hZvj+scwLOC+xdmBqCc3eYJUcV3EZr6J+zpA2JqABkc9q6oUAAAAASUVORK5CYII=",
+          blurWidth: 8,
+          blurHeight: 5,
+        },
+        v = {
+          src: "nextImageExportOptimizer/text-4.1f2e2d62.png",
+          height: 109,
+          width: 295,
+          blurDataURL:
+            "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAgAAAADCAMAAACZFr56AAAAM1BMVEV7WpySeayGZ6Z/YZ6KaaxRN2+VcraDaJ98XZtxUpiXeLhqUIh7Wp2LXrWVcbl0T5mMZ7Ees8L3AAAAEXRSTlPg4enc2Rmi1MipvbvUbLFa9MHmQikAAAAJcEhZcwAACxMAAAsTAQCanBgAAAAjSURBVHicY2Bl4eJk4+NkZeDlEOBhYGHiZ2BgZmDnZmfkAAAJ0QCq/mUSUQAAAABJRU5ErkJggg==",
+          blurWidth: 8,
+          blurHeight: 3,
+        },
+        y = {
+          src: "nextImageExportOptimizer/text-5.606568e6.png",
+          height: 108,
+          width: 449,
+          blurDataURL:
+            "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAgAAAACCAMAAABSSm3fAAAAIVBMVEUAAAC9ebaaWZSkZZ6na6KZXJSlYaC4cLG7b7erbqb+kezoaJ0vAAAAC3RSTlMBz8Pe782d4Dm4DgyW2RUAAAAJcEhZcwAACxMAAAsTAQCanBgAAAAaSURBVHicY2DgYGRkZ2PgYmBiZmJhYeZkBQACKwBCzcJI9QAAAABJRU5ErkJggg==",
+          blurWidth: 8,
+          blurHeight: 2,
+        },
+        V = () => {
+          let [A, e] = (0, i.useState)(null),
+            [t, l] = (0, i.useState)(1),
+            [V, D] = (0, i.useState)(0);
+          return (
+            (0, i.useEffect)(() => {
+              (async function () {
+                try {
+                  var A;
+                  let t = await fetch(
+                    "https://api.sogentmev.com/statistics/counter"
+                  );
+                  if (!t.ok)
+                    throw Error("HTTP error! status: ".concat(t.status));
+                  let a = await t.json();
                   e(null !== (A = a.counter) && void 0 !== A ? A : 0);
                 } catch (A) {
                   console.error(A);
