@@ -58,7 +58,7 @@
                   "Join ",
                   (0, a.jsx)("span", {
                     className: "text-magenta ",
-                    children: "DexMev",
+                    children: "SogentMev",
                   }),
                   " ",
                   (0, a.jsx)("br", {}),
