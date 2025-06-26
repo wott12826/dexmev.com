@@ -176,7 +176,7 @@
       "use strict";
       t.d(e, { A: () => a });
       let a = {
-        src: "nextImageExportOptimizer/bg-image-1.fbc1458a.jpg",
+        src: "/nextImageExportOptimizer/bg-image-1.fbc1458a.jpg",
         height: 1734,
         width: 1920,
         blurDataURL:
@@ -1780,7 +1780,7 @@
       "use strict";
       t.r(e), t.d(e, { default: () => a });
       let a = {
-        src: "nextImageExportOptimizer/bg-image-2.c40bfb94.jpg",
+        src: "/nextImageExportOptimizer/bg-image-2.c40bfb94.jpg",
         height: 6158,
         width: 1920,
         blurDataURL:
