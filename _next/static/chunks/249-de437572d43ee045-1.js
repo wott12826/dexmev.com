@@ -1629,7 +1629,7 @@
                   children: (0, a.jsx)(g.default, {
                     src: h,
                     alt: "logo-with-text",
-                    width: 198,
+                    width: 58,
                     height: 58,
                     priority: !0,
                     className: "max-lg:w-[250px]",
