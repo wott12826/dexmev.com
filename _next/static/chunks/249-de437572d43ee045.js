@@ -44,11 +44,6 @@
       let m = [
           { name: "Telegram", icon: c.default, link: "https://t.me/dexmev" },
           { name: "x.com", icon: g.default, link: "https://x.com" },
-          {
-            name: "Instagram",
-            icon: o.default,
-            link: "https://www.instagram.com/dexmev/",
-          },
         ],
         x = () =>
           (0, a.jsxs)("ul", {

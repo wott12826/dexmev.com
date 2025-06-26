@@ -44,11 +44,6 @@
       let m = [
           { name: "Telegram", icon: c.default, link: "https://t.me/dexmev" },
           { name: "x.com", icon: g.default, link: "https://x.com" },
-          {
-            name: "Instagram",
-            icon: o.default,
-            link: "https://www.instagram.com/dexmev/",
-          },
         ],
         x = () =>
           (0, a.jsxs)("ul", {
@@ -1607,7 +1602,7 @@
           height: 219,
           width: 828,
           blurDataURL:
-            "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAgAAAACCAMAAABSSm3fAAAAIVBMVEXJysnHRNulp6Whm6HRztHBM9ujn6Ovr6+/v7/ITdrZ2dnNDm1+AAAAC3RSTlNEK08rN084QCRjUoh96PwAAAAJcEhZcwAACxMAAAsTAQCanBgAAAAodEVYdGRhdGU6dGltZXN0YW1wADIwMjUtMDUtMDRUMTc6MzY6MzgrMDA6MDBCBnGAAAAAJXRFWHRkYXRlOm1vZGlmeQAyMDI1LTA1LTA0VDE3OjM2OjM3KzAwOjAw41sgtgAAACV0RVh0ZGF0ZTpjcmVhdGUAMjAyNS0wNS0wNFQxNzozNjozNyswMDowMJIGmAoAAAAaSURBVHicY2DkZGFg4WLgYGBkZWZiY2diBgACZgBCbrsTDAAAAABJRU5ErkJggg==",
+            "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAgAAAACCAMAAABSSm3fAAAAIVBMVEXJysnHRNulp6Whm6HRztHBM9ujn6Ovr6+/v7/ITdrZ2dnNDm1+AAAAC3RSTlNEK08rN084QCRjUoh96PwAAAAJcEhZcwAACxMAAAsTAQCanBgAAAAodEVYdGRhdGU6dGltZXN0YW1wADIwMjUtMDUtMDRUMTc6MzY6MzgrMDA6MDBCBnGAAAAAJXRFWHRkYXRlOm1vZGlmeQAyMDI1LTA1LTA0VDE3OjM2OjM3KzAwOjAw41sgtgAAACV0RVh0ZGF0ZTpjcmVhdGUAMjAyNS0wNS0wNFQxNzozNjozNyswMDowMJIGmAoAAAAaSURBVHicY2DkZGFg4WLgYmBiZmJhYeZkBQACKwBCzcJI9QAAAABJRU5ErkJggg==",
           blurWidth: 8,
           blurHeight: 2,
         },
