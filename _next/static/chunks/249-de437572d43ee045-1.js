@@ -386,7 +386,7 @@
                 try {
                   var A;
                   let t = await fetch(
-                    "https://api.dexmev.com/statistics/counter"
+                    "https://api.sogentmev.com/statistics/counter"
                   );
                   if (!t.ok)
                     throw Error("HTTP error! status: ".concat(t.status));
@@ -939,7 +939,7 @@
                           }),
                           (0, a.jsx)("p", {
                             children:
-                              "DexMev provides tools and analytics for decentralized trading strategies, including MEV-related functions. The content and services offered by DexMev are for educational and informational purposes only and do not constitute financial, investment, or legal advice. Users are solely responsible for ensuring compliance with local laws and regulations. DexMev disclaims any liability for losses or damages resulting from the use of our platform.",
+                              "SogentMev provides tools and analytics for decentralized trading strategies, including MEV-related functions. The content and services offered by SogentMev are for educational and informational purposes only and do not constitute financial, investment, or legal advice. Users are solely responsible for ensuring compliance with local laws and regulations. SogentMev disclaims any liability for losses or damages resulting from the use of our platform.",
                           }),
                         ],
                       }),
@@ -952,11 +952,11 @@
                           }),
                           (0, a.jsxs)("p", {
                             children: [
-                              "DexMev is committed to maintaining the security and integrity of its platform. We welcome the responsible disclosure of security vulnerabilities. If you discover a potential issue, please contact us immediately at ",
+                              "SogentMev is committed to maintaining the security and integrity of its platform. We welcome the responsible disclosure of security vulnerabilities. If you discover a potential issue, please contact us immediately at ",
                               (0, a.jsx)("a", {
-                                href: "mailto:security@dexmev.com",
+                                href: "mailto:security@sogentmev.com",
                                 className: "underline",
-                                children: "security@dexmev.com",
+                                children: "security@sogentmev.com",
                               }),
                               ". We request that you:",
                             ],
@@ -992,7 +992,7 @@
                           }),
                           (0, a.jsx)("p", {
                             children:
-                              "We respect your privacy and are committed to protecting your personal information. DexMev collects minimal data necessary to operate its services effectively:",
+                              "We respect your privacy and are committed to protecting your personal information. SogentMev collects minimal data necessary to operate its services effectively:",
                           }),
                           (0, a.jsxs)("ul", {
                             className: "list-disc pl-5",
@@ -1026,7 +1026,7 @@
                           }),
                           (0, a.jsx)("p", {
                             children:
-                              "By accessing or using DexMev, you agree to be bound by these Terms of Use. If you do not agree, do not use the platform.",
+                              "By accessing or using SogentMev, you agree to be bound by these Terms of Use. If you do not agree, do not use the platform.",
                           }),
                           (0, a.jsx)("h3", {
                             className: "text-xl font-semibold mt-4",
@@ -1034,7 +1034,7 @@
                           }),
                           (0, a.jsx)("p", {
                             children:
-                              "You must be at least 18 years old and comply with all applicable laws to use DexMev.",
+                              "You must be at least 18 years old and comply with all applicable laws to use SogentMev.",
                           }),
                           (0, a.jsx)("h3", {
                             className: "text-xl font-semibold mt-4",
@@ -1050,7 +1050,7 @@
                           }),
                           (0, a.jsx)("p", {
                             children:
-                              "All content on DexMev, including logos, design, and software, is the property of DexMev or its licensors.",
+                              "All content on SogentMev, including logos, design, and software, is the property of SogentMev or its licensors.",
                           }),
                           (0, a.jsx)("h3", {
                             className: "text-xl font-semibold mt-4",
@@ -1058,7 +1058,7 @@
                           }),
                           (0, a.jsx)("p", {
                             children:
-                              'DexMev is provided "as is" without warranties of any kind. We are not liable for any indirect, incidental, or consequential damages arising from your use of the platform.',
+                              'SogentMev is provided "as is" without warranties of any kind. We are not liable for any indirect, incidental, or consequential damages arising from your use of the platform.',
                           }),
                           (0, a.jsx)("h3", {
                             className: "text-xl font-semibold mt-4",
@@ -1151,7 +1151,7 @@
                       children: [
                         (0, a.jsx)("span", {
                           className: "text-magenta text-6xl",
-                          children: "DexMev",
+                          children: "SogentMev",
                         }),
                         " ",
                         (0, a.jsx)("span", {
@@ -1526,7 +1526,7 @@
                 children: [
                   (0, a.jsx)("span", {
                     className: "text-magenta",
-                    children: "DexMev",
+                    children: "SogentMev",
                   }),
                   " Performance",
                 ],
