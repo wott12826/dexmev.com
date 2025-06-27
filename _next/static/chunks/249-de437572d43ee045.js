@@ -1662,10 +1662,11 @@
                       children: "Get started",
                     }),
                     (0, a.jsx)(r.XE, {
-                      onClick: function () {
+                      onClick: function (e) {
                         // Check if mobile device
                         if (/Android|webOS|iPhone|iPad|iPod|BlackBerry|IEMobile|Opera Mini/i.test(navigator.userAgent) || window.innerWidth <= 1024) {
                           // Show mobile modal
+                          e && e.preventDefault && e.preventDefault();
                           const modal = document.getElementById('mobileUserPanelModal');
                           if (modal) {
                             modal.classList.remove('hidden');
@@ -1737,10 +1738,11 @@
                       children: "Get started",
                     }),
                     (0, a.jsx)(r.XE, {
-                      onClick: function () {
+                      onClick: function (e) {
                         // Check if mobile device
                         if (/Android|webOS|iPhone|iPad|iPod|BlackBerry|IEMobile|Opera Mini/i.test(navigator.userAgent) || window.innerWidth <= 1024) {
                           // Show mobile modal
+                          e && e.preventDefault && e.preventDefault();
                           const modal = document.getElementById('mobileUserPanelModal');
                           if (modal) {
                             modal.classList.remove('hidden');
