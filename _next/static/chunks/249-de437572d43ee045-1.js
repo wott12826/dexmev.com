@@ -180,7 +180,7 @@
         height: 1734,
         width: 1920,
         blurDataURL:
-          "data:image/jpg;base64,/9j/2wBDAAoKCgoKCgsMDAsPEA4QDxYUExMUFiIYGhgaGCIzICUgICUgMy03LCksNy1RQDg4QFFeT0pPXnFlZXGPiI+7u/v/2wBDAQoKCgoKCgsMDAsPEA4QDxYUExMUFiIYGhgaGCIzICUgICUgMy03LCksNy1RQDg4QFFeT0pPXnFlZXGPiI+7u/v/wgARCAAHAAgDASIAAhEBAxEB/8QAFQABAQAAAAAAAAAAAAAAAAAAAAf/xAAUAQEAAAAAAAAAAAAAAAAAAAAE/9oADAMBAAIQAxAAAACfhaf/xAAaEAACAgMAAAAAAAAAAAAAAAABAgADBBFR/9oACAEBAAE/ABdhVuGRGOuz/8QAGhEAAgIDAAAAAAAAAAAAAAAAAQIAAwQygv/aAAgBAgEBPwBcu1NQg5n/xAAaEQACAgMAAAAAAAAAAAAAAAABAgAREhSR/9oACAEDAQE/ANl6AxTk/9k=",
+          "data:image/jpeg;base64,/9j/2wBDAAoKCgoKCgsMDAsPEA4QDxYUExMUFiIYGhgaGCIzICUgICUgMy03LCksNy1RQDg4QFFeT0pPXnFlZXGPiI+7u/v/2wBDAQoKCgoKCgsMDAsPEA4QDxYUExMUFiIYGhgaGCIzICUgICUgMy03LCksNy1RQDg4QFFeT0pPXnFlZXGPiI+7u/v/wgARCAAHAAgDASIAAhEBAxEB/8QAFQABAQAAAAAAAAAAAAAAAAAAAAf/xAAUAQEAAAAAAAAAAAAAAAAAAAAE/9oADAMBAAIQAxAAAACfhaf/xAAaEAACAgMAAAAAAAAAAAAAAAABAgADBBFR/9oACAEBAAE/ABdhVuGRGOuz/8QAGhEAAgIDAAAAAAAAAAAAAAAAAQIAAwQygv/aAAgBAgEBPwBcu1NQg5n/xAAaEQACAgMAAAAAAAAAAAAAAAABAgAREhSR/9oACAEDAQE/ANl6AxTk/9k=",
         blurWidth: 8,
         blurHeight: 7,
       };
@@ -199,7 +199,7 @@
       let g = {
           src: "nextImageExportOptimizer/Logo.1f7ccd6a.png",
           height: 109,
-          width: 109,
+          width: 312,
           blurDataURL:
             "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAgAAAADCAMAAACZFr56AAAAHlBMVEW1tbXR0dG6u7m9QdfPX9m3tLfVZ97JQ+jFMOS7m8JD9SyGAAAACnRSTlMHGGksS1VPfXRIeLt3LAAAAAlwSFlzAAALEwAACxMBAJqcGAAAAB9JREFUeJxjYGNhZGBgZGBgYOfgZGJlYmJkYGZmAAMAA4gAN02K9QMAAAAASUVORK5CYII=",
           blurWidth: 8,
@@ -440,7 +440,7 @@
                       children: (0, a.jsx)(s.default, {
                         src: g,
                         alt: "Logo",
-                        width: 108,
+                        width: 312,
                         height: 108,
                         priority: !0,
                       }),
