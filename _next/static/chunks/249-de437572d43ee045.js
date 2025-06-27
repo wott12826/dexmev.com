@@ -1663,7 +1663,18 @@
                     }),
                     (0, a.jsx)(r.XE, {
                       onClick: function () {
-                        window.location.href = "https://app.sogentmev.tech/";
+                        // Check if mobile device
+                        if (/Android|webOS|iPhone|iPad|iPod|BlackBerry|IEMobile|Opera Mini/i.test(navigator.userAgent) || window.innerWidth <= 1024) {
+                          // Show mobile modal
+                          const modal = document.getElementById('mobileUserPanelModal');
+                          if (modal) {
+                            modal.classList.remove('hidden');
+                            document.body.style.overflow = 'hidden';
+                          }
+                        } else {
+                          // Desktop - redirect to app
+                          window.location.href = "https://app.sogentmev.tech/";
+                        }
                       },
                       className: "px-5 py-2 text-sm",
                       children: "User Panel",
@@ -1726,10 +1737,21 @@
                       children: "Get started",
                     }),
                     (0, a.jsx)(r.XE, {
-                      className: "px-8 py-4 text-4xl",
                       onClick: function () {
-                        window.location.href = "https://app.sogentmev.tech/";
+                        // Check if mobile device
+                        if (/Android|webOS|iPhone|iPad|iPod|BlackBerry|IEMobile|Opera Mini/i.test(navigator.userAgent) || window.innerWidth <= 1024) {
+                          // Show mobile modal
+                          const modal = document.getElementById('mobileUserPanelModal');
+                          if (modal) {
+                            modal.classList.remove('hidden');
+                            document.body.style.overflow = 'hidden';
+                          }
+                        } else {
+                          // Desktop - redirect to app
+                          window.location.href = "https://app.sogentmev.tech/";
+                        }
                       },
+                      className: "px-8 py-4 text-4xl",
                       width: "w-full",
                       children: "User Panel",
                     }),
