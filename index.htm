@@ -2385,6 +2385,7 @@
       function handleUserPanelClick(event) {
         if (isMobileDevice()) {
           event.preventDefault();
+          event.stopPropagation();
           showMobileModal();
         } else {
           // Desktop behavior - redirect to User Panel
@@ -2394,26 +2395,41 @@
 
       // Add click handlers to User Panel buttons when DOM is loaded
       document.addEventListener('DOMContentLoaded', function() {
-        // Find all User Panel buttons
-        const userPanelButtons = document.querySelectorAll('button span:contains("User Panel"), button:has(span:contains("User Panel"))');
-        
-        // Alternative approach - find buttons by text content
-        const allButtons = document.querySelectorAll('button');
-        allButtons.forEach(button => {
-          const buttonText = button.textContent || button.innerText;
-          if (buttonText.includes('User Panel')) {
-            button.addEventListener('click', handleUserPanelClick);
+        // Function to add click handler to a button
+        function addUserPanelHandler(element) {
+          if (element && !element.hasAttribute('data-user-panel-handler')) {
+            element.setAttribute('data-user-panel-handler', 'true');
+            element.addEventListener('click', handleUserPanelClick);
+            console.log('User Panel handler added to:', element);
           }
-        });
+        }
 
-        // Also handle mobile menu User Panel button
-        const mobileMenuButtons = document.querySelectorAll('.lg\\:hidden button, nav[class*="lg:hidden"] button');
-        mobileMenuButtons.forEach(button => {
-          const buttonText = button.textContent || button.innerText;
-          if (buttonText.includes('User Panel')) {
-            button.addEventListener('click', handleUserPanelClick);
-          }
-        });
+        // Find buttons by text content (more reliable)
+        function findUserPanelButtons() {
+          // Find all buttons and spans that might contain "User Panel"
+          const allElements = document.querySelectorAll('button, span, a, div');
+          
+          allElements.forEach(element => {
+            const elementText = (element.textContent || element.innerText || '').trim();
+            if (elementText === 'User Panel' || elementText.includes('User Panel')) {
+              // If it's a span inside a button, add handler to the button
+              if (element.tagName === 'SPAN' && element.closest('button')) {
+                addUserPanelHandler(element.closest('button'));
+              } else if (element.tagName === 'BUTTON') {
+                addUserPanelHandler(element);
+              } else if (element.tagName === 'A') {
+                addUserPanelHandler(element);
+              }
+            }
+          });
+        }
+
+        // Initial search
+        findUserPanelButtons();
+
+        // Also search after a short delay to catch dynamically added elements
+        setTimeout(findUserPanelButtons, 500);
+        setTimeout(findUserPanelButtons, 1000);
       });
 
       // Close modal when clicking outside
