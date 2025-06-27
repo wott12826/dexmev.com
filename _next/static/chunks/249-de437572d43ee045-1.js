@@ -440,7 +440,7 @@
                       children: (0, a.jsx)(s.default, {
                         src: g,
                         alt: "Logo",
-                        width: 312,
+                        width: 108,
                         height: 108,
                         priority: !0,
                       }),
