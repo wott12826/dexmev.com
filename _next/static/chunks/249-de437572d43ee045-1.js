@@ -199,7 +199,7 @@
       let g = {
           src: "nextImageExportOptimizer/Logo.1f7ccd6a.png",
           height: 109,
-          width: 312,
+          width: 109,
           blurDataURL:
             "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAgAAAADCAMAAACZFr56AAAAHlBMVEW1tbXR0dG6u7m9QdfPX9m3tLfVZ97JQ+jFMOS7m8JD9SyGAAAACnRSTlMHGGksS1VPfXRIeLt3LAAAAAlwSFlzAAALEwAACxMBAJqcGAAAAB9JREFUeJxjYGNhZGBgZGBgYOfgZGJlYmJkYGZmAAMAA4gAN02K9QMAAAAASUVORK5CYII=",
           blurWidth: 8,
