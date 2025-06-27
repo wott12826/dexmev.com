@@ -2320,7 +2320,7 @@
         display: none !important;
       }
     </style>
-    
+
     <script>
       setTimeout(() => {
         const footer = document.querySelector('footer');
@@ -2329,6 +2329,28 @@
           console.log('Footer removed.');
         }
       }, 200); // если не сработает — увеличь задержку до 500-1000 мс
+    </script>
+
+    <div id="mobileUserPanelModal" class="hidden fixed inset-0 z-[9999] flex items-center justify-center bg-black/80">
+      <div class="bg-white text-black p-6 rounded-lg max-w-sm text-center">
+        <p>This feature is only available on the desktop version of the site. To access the User Panel, please visit the site using a PC.</p>
+        <button id="closeMobileUserPanelModal" class="mt-4 px-4 py-2 bg-magenta text-white rounded">Close</button>
+      </div>
+    </div>
+
+    <script>
+      document.addEventListener('DOMContentLoaded', () => {
+        const modal = document.getElementById('mobileUserPanelModal');
+        const closeBtn = document.getElementById('closeMobileUserPanelModal');
+        const hide = () => {
+          modal.classList.add('hidden');
+          document.body.style.overflow = '';
+        };
+        closeBtn.addEventListener('click', hide);
+        modal.addEventListener('click', (e) => {
+          if (e.target === modal) hide();
+        });
+      });
     </script>
     
   </body>
