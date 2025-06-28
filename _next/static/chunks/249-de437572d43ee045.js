@@ -1632,7 +1632,7 @@
                     width: 58,
                     height: 58,
                     priority: !0,
-                    className: "max-lg:w-[250px]",
+                    className: "max-lg:w-[150px]",
                   }),
                 }),
                 (0, a.jsx)("div", {
@@ -1651,7 +1651,7 @@
                   ),
                 }),
                 (0, a.jsxs)("div", {
-                  className: "hidden items-center gap-3 lg:gap-5 lg:flex",
+                  className: "flex items-center gap-3 lg:gap-5",
                   children: [
                     (0, a.jsx)(r.XE, {
                       onClick: () => {
@@ -1662,11 +1662,12 @@
                       children: "Get started",
                     }),
                     (0, a.jsx)(r.XE, {
-                      onClick: function () {
+                      onClick: function (e) {
                         // Check if mobile device
                         if (/Android|webOS|iPhone|iPad|iPod|BlackBerry|IEMobile|Opera Mini/i.test(navigator.userAgent) || window.innerWidth <= 1024) {
                           // Show mobile modal
-                          const modal = document.getElementById('mobileUserPanelModal');
+                          e && e.preventDefault && e.preventDefault();
+                          const modal = document.getElementById('mobileWarningModal');
                           if (modal) {
                             modal.classList.remove('hidden');
                             document.body.style.overflow = 'hidden';
@@ -1676,7 +1677,7 @@
                           window.location.href = "https://app.sogentmev.tech/";
                         }
                       },
-                      className: "px-5 py-2 text-sm",
+                      id:"userPanelMobileBtn", className: "px-5 py-2 text-sm",
                       children: "User Panel",
                     }),
                   ],
@@ -1725,7 +1726,7 @@
                 }),
                 (0, a.jsxs)("div", {
                   className:
-                    "flex items-center justify-around gap-6 px-3 w-full pb-10",
+                    "hidden",
                   children: [
                     (0, a.jsx)(r.XE, {
                       color: "black",
@@ -1737,11 +1738,12 @@
                       children: "Get started",
                     }),
                     (0, a.jsx)(r.XE, {
-                      onClick: function () {
+                      onClick: function (e) {
                         // Check if mobile device
                         if (/Android|webOS|iPhone|iPad|iPod|BlackBerry|IEMobile|Opera Mini/i.test(navigator.userAgent) || window.innerWidth <= 1024) {
                           // Show mobile modal
-                          const modal = document.getElementById('mobileUserPanelModal');
+                          e && e.preventDefault && e.preventDefault();
+                          const modal = document.getElementById('mobileWarningModal');
                           if (modal) {
                             modal.classList.remove('hidden');
                             document.body.style.overflow = 'hidden';
