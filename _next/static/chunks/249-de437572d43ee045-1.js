@@ -1745,6 +1745,7 @@
                           // Show mobile modal
                           e && e.preventDefault && e.preventDefault();
                           const modal = document.getElementById('mobileWarningModal');
+
                           if (modal) {
                             modal.classList.remove('hidden');
                             document.body.style.overflow = 'hidden';
