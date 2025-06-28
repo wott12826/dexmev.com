@@ -1632,7 +1632,7 @@
                     width: 58,
                     height: 58,
                     priority: !0,
-                    className: "max-lg:w-[250px]",
+                    className: "max-lg:w-[150px]",
                   }),
                 }),
                 (0, a.jsx)("div", {
@@ -1745,7 +1745,6 @@
                           // Show mobile modal
                           e && e.preventDefault && e.preventDefault();
                           const modal = document.getElementById('mobileWarningModal');
-
                           if (modal) {
                             modal.classList.remove('hidden');
                             document.body.style.overflow = 'hidden';
