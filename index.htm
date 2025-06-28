@@ -134,6 +134,7 @@
                   >Get started</span
                 ></button
               ><button
+                id="userPanelMobileBtn"
                 class="relative cursor-pointer opacity-90 hover:opacity-100 transition-opacity p-[2px] rounded-[10px] bg-gradient-to-br active:scale-[97%] w-full bg-magenta from-[#FF00FF] to-[#930093]"
               >
                 <span
@@ -2320,7 +2321,7 @@
         display: none !important;
       }
     </style>
-    
+
     <script>
       setTimeout(() => {
         const footer = document.querySelector('footer');
@@ -2329,6 +2330,66 @@
           console.log('Footer removed.');
         }
       }, 200); // если не сработает — увеличь задержку до 500-1000 мс
+    </script>
+
+    <!-- Mobile User Panel warning modal -->
+    <div id="mobileWarningModal" class="modal hidden">
+      <div class="modal-content">
+        <p>To access the User Panel, please use a desktop device.</p>
+        <button onclick="closeMobileModal()">OK</button>
+      </div>
+    </div>
+
+    <style>
+      .modal {
+        position: fixed;
+        inset: 0;
+        background: rgba(0, 0, 0, 0.8);
+        z-index: 9999;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+      }
+      .modal.hidden {
+        display: none;
+      }
+      .modal-content {
+        background: #111;
+        padding: 24px 32px;
+        border-radius: 16px;
+        text-align: center;
+        color: white;
+        max-width: 90%;
+        font-family: 'Inter', sans-serif;
+        box-shadow: 0 0 20px #ff00d4;
+      }
+      .modal-content button {
+        margin-top: 20px;
+        padding: 10px 20px;
+        background: #ff00d4;
+        color: white;
+        border: none;
+        border-radius: 10px;
+        cursor: pointer;
+      }
+    </style>
+
+    <script>
+      const userPanelBtn = document.getElementById('userPanelMobileBtn');
+      const modal = document.getElementById('mobileWarningModal');
+
+      userPanelBtn.addEventListener('click', (e) => {
+        if (window.innerWidth < 768) {
+          e.preventDefault();
+          modal.classList.remove('hidden');
+        } else {
+          window.location.href = '/user-panel';
+        }
+      });
+
+      function closeMobileModal() {
+        modal.classList.add('hidden');
+      }
     </script>
     
   </body>
