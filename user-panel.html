@@ -17,11 +17,9 @@
             background: #000;
             color: #fff;
             min-height: 100vh;
-        }
-
-        .container {
-            text-align: center;
-            padding: 2rem;
+            display: flex;
+            align-items: center;
+            justify-content: center;
         }
 
         .back-button {
@@ -49,30 +47,29 @@
         .back-button:active {
             transform: translateY(0);
         }
+        .container {
+            text-align: center;
+            padding: 2rem;
+        }
 
         .logo {
             width: 120px;
-            height: auto;
+            height: 120px;
             margin-bottom: 2rem;
         }
 
         .title {
             font-size: 2.5rem;
-            font-weight: 700;
+            font-weight: 600;
             margin-bottom: 1rem;
-            background: linear-gradient(135deg, #FF00FF 0%, #930093 100%);
-            -webkit-background-clip: text;
-            -webkit-text-fill-color: transparent;
-            background-clip: text;
+            color: #fff;
         }
 
         .subtitle {
             font-size: 1.2rem;
-            color: #888;
-            margin-bottom: 3rem;
-            max-width: 600px;
-            margin-left: auto;
-            margin-right: auto;
+            color: #808080;
+            margin-bottom: 2rem;
+            line-height: 1.6;
         }
 
         .desktop-message {
@@ -95,47 +92,49 @@
             line-height: 1.6;
         }
 
-        .modal {
+        .mobile-modal {
             position: fixed;
             top: 0;
             left: 0;
-            width: 100vw;
-            height: 100vh;
-            background: rgba(0, 0, 0, 0.92);
+            width: 100%;
+            height: 100%;
+            background: rgba(0, 0, 0, 0.8);
             display: flex;
             align-items: center;
             justify-content: center;
             z-index: 1000;
+            opacity: 0;
+            visibility: hidden;
+            transition: all 0.3s ease;
+        }
+
+        .mobile-modal.show {
+            opacity: 1;
+            visibility: visible;
         }
 
         .modal-content {
-            background: linear-gradient(135deg, #1a1a1a 0%, #2a2a2a 100%);
-            border: 2px solid #FF00FF;
-            border-radius: 20px;
-            padding: 3rem;
+            background: #1a1a1a;
+            border: 1px solid rgba(255, 255, 255, 0.1);
+            border-radius: 16px;
+            padding: 2rem;
+            max-width: 90%;
+            width: 400px;
             text-align: center;
-            max-width: 500px;
-            margin: 2rem;
-            box-shadow: 0 20px 60px rgba(255, 0, 255, 0.2);
-            animation: modalSlideIn 0.5s ease-out;
+            position: relative;
+            transform: scale(0.9);
+            transition: transform 0.3s ease;
         }
 
-        @keyframes modalSlideIn {
-            from {
-                opacity: 0;
-                transform: translateY(-50px) scale(0.9);
-            }
-            to {
-                opacity: 1;
-                transform: translateY(0) scale(1);
-            }
+        .mobile-modal.show .modal-content {
+            transform: scale(1);
         }
 
         .modal-icon {
-            width: 80px;
-            height: 80px;
-            margin: 0 auto 2rem;
-            background: linear-gradient(135deg, #FF00FF 0%, #930093 100%);
+            width: 64px;
+            height: 64px;
+            margin: 0 auto 1rem;
+            background: #b056ff;
             border-radius: 50%;
             display: flex;
             align-items: center;
@@ -144,86 +143,53 @@
         }
 
         .modal-title {
-            font-size: 2rem;
-            font-weight: 700;
+            font-size: 1.5rem;
+            font-weight: 600;
             margin-bottom: 1rem;
-            color: #FF00FF;
+            color: #fff;
         }
 
         .modal-text {
-            font-size: 1.1rem;
-            color: #ccc;
+            color: #c8c9d0;
             line-height: 1.6;
             margin-bottom: 2rem;
         }
 
         .modal-button {
-            background: linear-gradient(135deg, #FF00FF 0%, #930093 100%);
-            color: white;
+            background: #b056ff;
+            color: #fff;
             border: none;
-            padding: 15px 30px;
-            border-radius: 10px;
-            font-size: 1.1rem;
-            font-weight: 600;
+            padding: 12px 24px;
+            border-radius: 8px;
+            font-size: 1rem;
+            font-weight: 500;
             cursor: pointer;
-            transition: all 0.3s ease;
+            transition: background 0.2s ease;
         }
 
         .modal-button:hover {
-            transform: translateY(-2px);
-            box-shadow: 0 8px 25px rgba(255, 0, 255, 0.3);
+            background: #9a4dff;
         }
 
-        .modal-button:active {
-            transform: translateY(0);
+        @media (max-width: 767px) {
+            .desktop-message {
+                display: none;
+            }
         }
 
-        .hidden {
-            display: none !important;
-        }
-
-        @media (max-width: 768px) {
-            .container {
-                padding: 1rem;
-            }
-            
-            .back-button {
-                top: 1rem;
-                left: 1rem;
-                padding: 10px 20px;
-                font-size: 14px;
-            }
-
-            .title {
-                font-size: 2rem;
-            }
-
-            .subtitle {
-                font-size: 1rem;
-            }
-
-            .modal-content {
-                padding: 2rem;
-                margin: 1rem;
-            }
-
-            .modal-title {
-                font-size: 1.5rem;
-            }
-
-            .modal-text {
-                font-size: 1rem;
+        @media (min-width: 768px) {
+            .mobile-modal {
+                display: none;
             }
         }
     </style>
 </head>
 <body>
     <a href="index.htm" class="back-button">← Back</a>
-    
     <div class="container">
-        <img src="nextImageExportOptimizer/logo.png" alt="SogentMev Logo" class="logo">
+        <img src="logo-with-text-max.png" alt="SogentMev Logo" class="logo">
         <h1 class="title">User Panel</h1>
-        <p class="subtitle">Welcome to the SogentMev User Panel. Here you can manage your settings and track your activity.</p>
+        <p class="subtitle">Access your exclusive trading dashboard</p>
         
         <div class="desktop-message">
             <h2>Welcome to SogentMev</h2>
@@ -232,57 +198,50 @@
     </div>
 
     <!-- Mobile Modal -->
-    <div id="mobileWarningModal" class="modal hidden">
+    <div class="mobile-modal" id="mobileWarningModal">
         <div class="modal-content">
             <div class="modal-icon">💻</div>
             <h2 class="modal-title">Desktop Access Required</h2>
-            <p class="modal-text">Access to the User Panel requires using a desktop computer or laptop. Please open the site from a desktop device.</p>
+            <p class="modal-text">The User Panel requires a desktop computer for optimal functionality. Please visit this page from your desktop or laptop to access all features.</p>
             <button class="modal-button" onclick="closeMobileModal()">Got it</button>
         </div>
     </div>
 
     <script>
-        // Check if device is mobile
-        function isMobileDevice() {
-            return /Android|webOS|iPhone|iPad|iPod|BlackBerry|IEMobile|Opera Mini/i.test(navigator.userAgent) || window.innerWidth <= 768;
-        }
+        const modal = document.getElementById('mobileWarningModal');
 
-        // Show modal for mobile devices
         function showMobileModal() {
-            const modal = document.getElementById('mobileWarningModal');
-            if (modal) {
-                modal.classList.remove('hidden');
-                document.body.style.overflow = 'hidden';
+            modal.classList.add('show');
+            document.body.style.overflow = 'hidden';
+        }
+
+        function closeMobileModal() {
+            modal.classList.remove('show');
+            document.body.style.overflow = '';
+        }
+
+        // Check if mobile device and show modal
+        function checkDevice() {
+            const isMobile = /Android|webOS|iPhone|iPad|iPod|BlackBerry|IEMobile|Opera Mini/i.test(navigator.userAgent) || window.innerWidth <= 1024;
+            if (isMobile) {
+                showMobileModal();
             }
         }
 
-        // Close modal
-        function closeMobileModal() {
-            const modal = document.getElementById('mobileWarningModal');
-            if (modal) {
-                modal.classList.add('hidden');
-                document.body.style.overflow = '';
-            }
-        }
+        // Show modal on page load for mobile devices
+        document.addEventListener('DOMContentLoaded', checkDevice);
 
         // Close modal when clicking outside
-        document.getElementById('mobileWarningModal').addEventListener('click', function(e) {
-            if (e.target === this) {
+        modal.addEventListener('click', function(e) {
+            if (e.target === modal) {
                 closeMobileModal();
             }
         });
 
         // Close modal with Escape key
         document.addEventListener('keydown', function(e) {
-            if (e.key === 'Escape') {
+            if (e.key === 'Escape' && modal.classList.contains('show')) {
                 closeMobileModal();
-            }
-        });
-
-        // Show modal on page load for mobile devices
-        window.addEventListener('load', function() {
-            if (isMobileDevice()) {
-                showMobileModal();
             }
         });
     </script>
