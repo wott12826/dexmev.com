@@ -123,6 +123,7 @@
                 >Community</a
               >
             </div>
+
           </div>
         </nav>
         <nav
@@ -2358,6 +2359,7 @@
       const modal = document.getElementById('mobileWarningModal');
 
       function showMobileModal(e) {
+
         if (window.innerWidth < 768) {
           e.preventDefault();
           modal.classList.remove('hidden');
@@ -2372,6 +2374,7 @@
         if (btn && btn.textContent.trim() === 'User Panel') {
           showMobileModal(e);
         }
+
       });
 
       function closeMobileModal() {
