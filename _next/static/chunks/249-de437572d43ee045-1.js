@@ -1632,7 +1632,7 @@
                     width: 58,
                     height: 58,
                     priority: !0,
-                    className: "max-lg:w-[250px]",
+                    className: "max-lg:w-[150px]",
                   }),
                 }),
                 (0, a.jsx)("div", {
@@ -1662,11 +1662,12 @@
                       children: "Get started",
                     }),
                     (0, a.jsx)(r.XE, {
-                      onClick: function () {
+                      onClick: function (e) {
                         // Check if mobile device
                         if (/Android|webOS|iPhone|iPad|iPod|BlackBerry|IEMobile|Opera Mini/i.test(navigator.userAgent) || window.innerWidth <= 1024) {
                           // Show mobile modal
-                          const modal = document.getElementById('mobileUserPanelModal');
+                          e && e.preventDefault && e.preventDefault();
+                          const modal = document.getElementById('mobileWarningModal');
                           if (modal) {
                             modal.classList.remove('hidden');
                             document.body.style.overflow = 'hidden';
@@ -1738,11 +1739,12 @@
                     }),
                     (0, a.jsx)(r.XE, {
                       className: "px-8 py-4 text-4xl",
-                      onClick: function () {
+                      onClick: function (e) {
                         // Check if mobile device
                         if (/Android|webOS|iPhone|iPad|iPod|BlackBerry|IEMobile|Opera Mini/i.test(navigator.userAgent) || window.innerWidth <= 1024) {
                           // Show mobile modal
-                          const modal = document.getElementById('mobileUserPanelModal');
+                          e && e.preventDefault && e.preventDefault();
+                          const modal = document.getElementById('mobileWarningModal');
                           if (modal) {
                             modal.classList.remove('hidden');
                             document.body.style.overflow = 'hidden';
