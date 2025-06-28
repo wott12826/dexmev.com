@@ -2373,8 +2373,8 @@
       document.addEventListener(
         'click',
         (e) => {
-          const btn = e.target.closest('button');
-          if (btn && btn.textContent.trim() === 'User Panel') {
+          const btn = e.target.closest('userPanelMobileBtn');
+          if (btn && btn.getElementById === 'userPanelMobileBtn') {
             showMobileModal(e);
           }
         },
