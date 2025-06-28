@@ -123,25 +123,6 @@
                 >Community</a
               >
             </div>
-            <div
-              class="flex items-center justify-around gap-6 px-3 w-full pb-10"
-            >
-              <button
-                class="relative cursor-pointer opacity-90 hover:opacity-100 transition-opacity p-[2px] rounded-[10px] bg-gradient-to-br active:scale-[97%] w-full bg-black from-[#0000009b] to-[#ffffff55]"
-              >
-                <span
-                  class="w-full h-full flex items-center justify-center gap-2 py-2 rounded-lg black-neu px-8 py-4 text-4xl"
-                  >Get started</span
-                ></button
-              ><button
-                class="relative cursor-pointer opacity-90 hover:opacity-100 transition-opacity p-[2px] rounded-[10px] bg-gradient-to-br active:scale-[97%] w-full bg-magenta from-[#FF00FF] to-[#930093]"
-              >
-                <span
-                  class="w-full h-full flex items-center justify-center gap-2 py-2 rounded-lg magenta-neu px-8 py-4 text-4xl"
-                  >User Panel</span
-                >
-              </button>
-            </div>
           </div>
         </nav>
         <nav
@@ -157,7 +138,7 @@
                 height="58"
                 decoding="async"
                 data-nimg="1"
-                class="max-lg:w-[250px]"
+                class="max-lg:w-[150px]"
                 style="
                   color: transparent;
                   background-size: cover;
@@ -193,7 +174,7 @@
                 >Community</a
               >
             </div>
-            <div class="hidden items-center gap-3 lg:gap-5 lg:flex">
+            <div class="flex items-center gap-3 lg:gap-5">
               <button
                 class="relative cursor-pointer opacity-90 hover:opacity-100 transition-opacity p-[2px] rounded-[10px] bg-gradient-to-br active:scale-[97%] undefined bg-black from-[#0000009b] to-[#ffffff55]"
               >
@@ -201,7 +182,7 @@
                   class="w-full h-full flex items-center justify-center gap-2 py-2 rounded-lg black-neu px-5 text-sm"
                   >Get started</span
                 ></button
-              ><button
+              ><button id="userPanelMobileBtn"
                 class="relative cursor-pointer opacity-90 hover:opacity-100 transition-opacity p-[2px] rounded-[10px] bg-gradient-to-br active:scale-[97%] undefined bg-magenta from-[#FF00FF] to-[#930093]"
               >
                 <span
@@ -2320,7 +2301,7 @@
         display: none !important;
       }
     </style>
-    
+
     <script>
       setTimeout(() => {
         const footer = document.querySelector('footer');
@@ -2329,6 +2310,74 @@
           console.log('Footer removed.');
         }
       }, 200); // если не сработает — увеличь задержку до 500-1000 мс
+    </script>
+
+    <!-- Mobile User Panel warning modal -->
+    <div id="mobileWarningModal" class="modal hidden">
+      <div class="modal-content">
+        <p>This feature is available only on desktop. Please open the site on a PC to access the User Panel.</p>
+        <button onclick="closeMobileModal()">OK</button>
+      </div>
+    </div>
+
+    <style>
+      .modal {
+        position: fixed;
+        inset: 0;
+        background: rgba(0, 0, 0, 0.8);
+        z-index: 10000;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+      }
+      .modal.hidden {
+        display: none;
+      }
+      .modal-content {
+        background: #111;
+        padding: 24px 32px;
+        border-radius: 16px;
+        text-align: center;
+        color: white;
+        max-width: 90%;
+        font-family: 'Inter', sans-serif;
+        box-shadow: 0 0 20px #ff00d4;
+      }
+      .modal-content button {
+        margin-top: 20px;
+        padding: 10px 20px;
+        background: #ff00d4;
+        color: white;
+        border: none;
+        border-radius: 10px;
+        cursor: pointer;
+      }
+    </style>
+
+    <script>
+      const modal = document.getElementById('mobileWarningModal');
+
+      function showMobileModal(e) {
+        if (window.innerWidth < 768) {
+          e.preventDefault();
+          modal.classList.remove('hidden');
+          document.body.style.overflow = 'hidden';
+        } else {
+          window.location.href = '/user-panel';
+        }
+      }
+
+      document.addEventListener('click', (e) => {
+        const btn = e.target.closest('button');
+        if (btn && btn.textContent.trim() === 'User Panel') {
+          showMobileModal(e);
+        }
+      });
+
+      function closeMobileModal() {
+        modal.classList.add('hidden');
+        document.body.style.overflow = '';
+      }
     </script>
     
   </body>
