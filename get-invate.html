@@ -788,7 +788,7 @@
       <!-- Mobile User Panel warning modal -->
       <div id="mobileWarningModal" class="modal hidden">
         <div class="modal-content">
-          <p>To access the User Panel, please use a desktop device.</p>
+          <p>This feature is available only on the desktop version of the site. To access the User Panel, please visit from a PC.</p>
           <button onclick="closeMobileModal()">OK</button>
         </div>
       </div>
@@ -798,7 +798,7 @@
           position: fixed;
           inset: 0;
           background: rgba(0, 0, 0, 0.8);
-          z-index: 9999;
+          z-index: 10000;
           display: flex;
           justify-content: center;
           align-items: center;
@@ -835,6 +835,7 @@
           if (window.innerWidth < 768) {
             e.preventDefault();
             modal.classList.remove('hidden');
+            document.body.style.overflow = 'hidden';
           } else {
             window.location.href = '/user-panel';
           }
@@ -842,6 +843,7 @@
 
         function closeMobileModal() {
           modal.classList.add('hidden');
+          document.body.style.overflow = '';
         }
       </script>
     <script>
