@@ -1651,7 +1651,7 @@
                   ),
                 }),
                 (0, a.jsxs)("div", {
-                  className: "flex items-center gap-3 lg:gap-5",
+                  className: "hidden items-center gap-3 lg:gap-5 lg:flex",
                   children: [
                     (0, a.jsx)(r.XE, {
                       onClick: () => {
@@ -1677,7 +1677,7 @@
                           window.location.href = "https://app.sogentmev.tech/";
                         }
                       },
-                      id:"userPanelMobileBtn", className: "px-5 py-2 text-sm",
+                      className: "px-5 py-2 text-sm",
                       children: "User Panel",
                     }),
                   ],
@@ -1726,7 +1726,7 @@
                 }),
                 (0, a.jsxs)("div", {
                   className:
-                    "hidden",
+                    "flex items-center justify-around gap-6 px-3 w-full pb-10",
                   children: [
                     (0, a.jsx)(r.XE, {
                       color: "black",
