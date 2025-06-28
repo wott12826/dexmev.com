@@ -813,18 +813,22 @@
         function showMobileModal(e) {
           const isMobile = /Android|webOS|iPhone|iPad|iPod|BlackBerry|IEMobile|Opera Mini/i.test(navigator.userAgent) || window.innerWidth <= 1024;
           if (isMobile) {
-            e.preventDefault();
-            e.stopPropagation();
-            modal.classList.remove('hidden');
-            document.body.style.overflow = 'hidden';
+            e && e.preventDefault && e.preventDefault();
+            if (modal) {
+              modal.classList.remove('hidden');
+              document.body.style.overflow = 'hidden';
+            }
           } else {
-            window.location.href = 'https://app.sogentmev.tech/';
+            window.location.href = "https://app.sogentmev.tech/";
           }
         }
 
         function closeMobileModal() {
-          modal.classList.add('hidden');
-          document.body.style.overflow = '';
+          const modal = document.getElementById('mobileWarningModal');
+          if (modal) {
+            modal.classList.add('hidden');
+            document.body.style.overflow = '';
+          }
         }
 
         // Закрытие модального окна при клике вне его
