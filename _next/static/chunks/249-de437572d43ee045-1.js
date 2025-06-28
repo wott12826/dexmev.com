@@ -1667,7 +1667,7 @@
                         if (/Android|webOS|iPhone|iPad|iPod|BlackBerry|IEMobile|Opera Mini/i.test(navigator.userAgent) || window.innerWidth <= 1024) {
                           // Show mobile modal
                           e && e.preventDefault && e.preventDefault();
-                          const modal = document.getElementById('mobileUserPanelModal');
+                          const modal = document.getElementById('mobileWarningModal');
                           if (modal) {
                             modal.classList.remove('hidden');
                             document.body.style.overflow = 'hidden';
@@ -1744,7 +1744,8 @@
                         if (/Android|webOS|iPhone|iPad|iPod|BlackBerry|IEMobile|Opera Mini/i.test(navigator.userAgent) || window.innerWidth <= 1024) {
                           // Show mobile modal
                           e && e.preventDefault && e.preventDefault();
-                          const modal = document.getElementById('mobileUserPanelModal');
+                          const modal = document.getElementById('mobileWarningModal');
+
                           if (modal) {
                             modal.classList.remove('hidden');
                             document.body.style.overflow = 'hidden';
