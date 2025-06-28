@@ -808,10 +808,9 @@
       </style>
 
       <script>
-        const userPanelBtn = document.getElementById('userPanelMobileBtn');
         const modal = document.getElementById('mobileWarningModal');
 
-        userPanelBtn.addEventListener('click', (e) => {
+        function showMobileModal(e) {
           if (window.innerWidth < 768) {
             e.preventDefault();
             modal.classList.remove('hidden');
@@ -819,6 +818,14 @@
           } else {
             window.location.href = '/user-panel';
           }
+        }
+
+        document.addEventListener('click', (e) => {
+          const btn = e.target.closest('button');
+          if (btn && btn.textContent.trim() === 'User Panel') {
+            showMobileModal(e);
+          }
+
         });
 
         function closeMobileModal() {
